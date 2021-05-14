@@ -1,0 +1,49 @@
+* {	/* estilos por defecto para TODOS los elementos de la página; */
+	/* estilo:valor; */
+	box-sizing: border-box;
+	background-color: antiquewhite;	
+}
+
+h1 {
+	text-align: center;
+	color:indigo;
+	margin: 15px;
+}
+
+div {
+  /* estilos para todos los elementos <div>; */
+  /* estilo:valor; */
+  
+  /* box-sizing:border-box  incluye en las dimensiones de un elemento el espacio del padding y del border. */
+  /* display:flex   da la misma altura a todos los elementos que están en el mismo DIV */
+  text-align: center;
+  /*display: inline-block;*/
+	
+}
+figure {
+	width: 33%;
+	height: 300px;
+	margin: 0px;
+	display: inline-block;
+}
+
+img {
+	height:100%;
+	width: 100%;
+	object-fit: content;
+}   
+
+@media screen and (max-width: 1200px) {
+	/* Jugamos con el tamaño de la pantalla y según la resolución máx ajustamos la altura de la img*/
+	figure{
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	figure{
+		height: 150px;
+		display:table;/*block situa uno debajo de otro pero se solapan h3 y figcaption*/
+	}
+}
+
