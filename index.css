@@ -12,12 +12,9 @@ h1 {
 
 div {
   /* estilos para todos los elementos <div>; */
-  /* estilo:valor; */
-  
   /* box-sizing:border-box  incluye en las dimensiones de un elemento el espacio del padding y del border. */
   /* display:flex   da la misma altura a todos los elementos que están en el mismo DIV */
   text-align: center;
-  /*display: inline-block;*/
 	
 }
 figure {
@@ -33,14 +30,14 @@ img {
 	object-fit: content;
 }   
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width:1140px) {
 	/* Jugamos con el tamaño de la pantalla y según la resolución máx ajustamos la altura de la img*/
 	figure{
-		height: 300px;
+		height: 225px;
 	}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 760px) {
 	figure{
 		height: 150px;
 		display:table;/*block situa uno debajo de otro pero se solapan h3 y figcaption*/
