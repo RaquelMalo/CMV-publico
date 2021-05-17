@@ -1,0 +1,11 @@
+* {	/* estilos por defecto para TODOS los elementos de la página; */
+	/* estilo:valor; */
+	box-sizing: border-box;
+	background-color: antiquewhite;	
+}
+
+h1 {
+	text-align: center;
+	color:indigo;
+	margin: 15px;
+}
