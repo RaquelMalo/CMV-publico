@@ -24,7 +24,7 @@ fecha: Mayo 2021
 	
 	<!-- una hoja de estilos personalizada-->
 	<link href="estilos.css" rel="stylesheet"/>
-	<link href="05-14-TresFotos.css" rel="stylesheet"/>
+	<link href="05-17-MenuH.css" rel="stylesheet"/>
 	
 	<!-- iconos u otros elementos externos -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
@@ -34,7 +34,6 @@ fecha: Mayo 2021
 	
 	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
 	<script src="scripts.js"></script>
-	
 </head>
 
 
@@ -43,31 +42,41 @@ fecha: Mayo 2021
 	<!-- cabecera de pagina -->
 	<header>
 		<h1>VIAJES</h1>
-		<h2>Estas son las fotos de las 3 últimas ciudades europeas en que he estado.</h2>
 		<br/>
 	</header>
 	
-	<!-- bloque de contenido de la pagina -->
-	<!-- div para organizar contenidos -->
-	<div class="centrado">
-		<!-- utilizar figure y figcaption para posicionamiento (web semántica) -->
-		<figure>
-			<h3>Panorámica de Düsseldorf</h3>
-			<img alt="Düsseldorf" src="mmedia/Düsseldorf.jpg"/>
-			<figcaption>El Rin a su paso por Düsseldorf</figcaption>
-		</figure>
-		<figure>
-			<h3>Plaza del Duomo - Milán</h3>
-			<img alt="Milán"src="mmedia/Milan.jpg"/>
-			<figcaption>Visita a Milán</figcaption>
-		</figure>
-		<figure>
-			<h3>Tour Eiffel Paris</h3>
-			<img alt="París"src="mmedia/Paris.jpg"/>
-			<figcaption>Disfrutando de París</figcaption>
-		</figure>
-	<div>
-
+	<!-- bloque de contenido de la pagina -->	
+	<main>
+		<ul id="menuhorizontal">
+			<li><a href="#">Opción 1</a></li>
+			<li><a href="#">Opción 2</a></li>
+			<li><a href="#">Opción 3</a></li>
+			<li><a href="#">Opción 4</a></li>
+		</ul>
+	
+		<div class="centrado">
+			<!-- utilizar figure y figcaption para posicionamiento (web semántica) -->
+			<figure>
+				<h3>Panorámica de Düsseldorf</h3>
+				<img alt="Düsseldorf" src="mmedia/Düsseldorf.jpg"/>
+				<figcaption>El Rin a su paso por Düsseldorf</figcaption>
+			</figure>
+			<figure>
+				<h3>Plaza del Duomo - Milán</h3>
+				<img alt="Milán"src="mmedia/Milan.jpg"/>
+				<figcaption>Visita a Milán</figcaption>
+			</figure>
+			<figure>
+				<h3>Tour Eiffel Paris</h3>
+				<img alt="París"src="mmedia/Paris.jpg"/>
+				<figcaption>Disfrutando de París</figcaption>
+			</figure>
+		<div>
+		
+		<h2>Ciudades europeas que he visitado</h2>
+		<p>Aquí tenéis una muestra de alguno de los sitios en que he estado, concretamente las tres últimas 
+		ciudades europeas que he visitado fuera de nuestras fronteras.</p>
+	</main>
 
 	<!-- pie de pagina -->
 	<footer>
