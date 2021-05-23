@@ -1,6 +1,6 @@
 #menuhorizontal {
   margin:0px 10px 10px 0px;
-  /* padding:0; puesto en estilos (css general) */
+  padding:0px;
   list-style-type:none;
 }
 #menuhorizontal a {
@@ -29,19 +29,15 @@
 
 .centrado {
   text-align: center;
+  display: inline-block; 
 }
 
 figure {
 	width: 33%;
 	height: 300px;
+  margin: 0px; /*La separación que necesitemos darle con padding para que sea responsivo con box-sizing*/
 	display: inline-block; 
 }
-
-img {
-	height:100%;
-	width: 100%;
-  object-fit: cover;
-}  
 
 #marco {
   object-fit: content;
@@ -56,7 +52,15 @@ img {
   -moz-transform: scale(1.2 , 1.2);
   -o-transform: scale(1.2 , 1.2);
   transform: scale(1.2 , 1.2);
+  z-index: 1;
 }
+
+img {
+	height:300px;
+	width: 100%;
+  object-fit: content;
+  z-index: 0;
+}  
 
 figcaption {
   width: 100%; /* Ponerlo para forzar que coja todo el ancho y no meta marco */
@@ -78,4 +82,12 @@ figcaption {
 		height: 150px;
 		display:table;/*block situa uno debajo de otro pero se solapan h3 y figcaption*/
 	}
+}
+
+p {
+  text-align: justify;
+}
+
+p:active {
+ opacity: 0.5;
 }

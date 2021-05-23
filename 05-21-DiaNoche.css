@@ -1,53 +1,164 @@
+:root {
+  /* --fuenteDia : #ff0000;
+  --fuenteNoche: #0000ff; */
+  --colorFijo: #336699;
+  --fondoDia: #f7f8e8;
+  --fondoNoche:#999999;
+}
+
+.dia {
+  /* color: var(--fuenteDia); */
+  background-color: var(--fondoDia);
+}
+
+.noche {
+  /* color: var(--fuenteNoche); */
+  background-color: var(--fondoNoche);
+}
+
+.marco {
+  display: grid;
+  /* border-style: solid;
+  border-color: red; */
+  grid-template-columns: 150px repeat(3,1fr);
+  grid-template-rows: 80px auto auto 40px;
+  grid-gap: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.encabezado {
+  /*border-style: solid;
+   border-color: blue; */
+  background-color: var(--colorFijo) ;
+  grid-column: 1 / span 4;
+  grid-row: 1 / span 1;
+}
+
+.menu {
+  /* border-style: solid;
+  border-color: yellow; */
+  background-color:var(--colorFijo);
+  grid-column: 1 / span 4;
+  grid-row: 2 / span 1;
+}
+
+/* .migas {
+  border-style: solid;
+  border-color: orangered;
+  grid-column: 1 / span 4;
+  grid-row: 3 / span 1;
+} */
+
+/* .lado {
+  border-style: solid;
+  border-color: violet; 
+  background-color: indigo;
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+} */
+
+.contenido {
+  /*border-style: solid;
+   border-color: violet; */
+  grid-column: 1 / span 4;
+  grid-row: 3 / span 1;		  
+  overflow: auto;  /*añade scroll a esta parte y no a toda la página, y solo cuando sea necesario */
+  }
+
+.pie {
+  /*border-style: solid;
+   border-color: aqua; */
+  background-color:var(--colorFijo);
+  grid-column: 1 / span 4;
+  grid-row: 4 / span 1;
+}
+
+nav {
+  display: flex;
+}
+
 #menuhorizontal {
   margin:0px 10px 10px 0px;
+  padding:5px;
   list-style-type:none;
 }
 #menuhorizontal a {
   width:150px;
-  text-decoration:none;
-  font-size: 20px;
-  text-align:center;  
+  text-decoration:none;  
+  text-align:center; 
+  font-size: 20px; 
   color:#ff0000;
+  background-color:var(--fondoDia);
   margin-right: 5px;
-  background-color:#f7f8e8;
-  padding:3px 10px 3px 10px;
+  padding:3px 10px 3px 10px;  
+  font-size: 20px;
   border-radius: 20px; 
   border:1px solid black;
   display:inline-block;
 }
 
 #menuhorizontal li {
-  /* float:left;   */
   display:inline-block;
 }
 
-#menuhorizontal a:hover {
-  background-color:#336699;
+#menuhorizontal a:hover, button:hover {
+  background-color:#ebd67b;;
   box-shadow: 8px 4px 4px #aaa;
 }
 
+button {
+  margin:0px 10px 10px 10px;
+  background-color:var(--fondoDia);
+  font-size: 15px;
+  border-radius: 20px; 
+  border:1px solid black;
+  float:right;
+}
+
 .centrado {
-  text-align: center;
+  text-align: center;  
+	display: inline-block;
 }
 
 figure {
 	width: 33%;
 	height: 300px;
-	display: inline-block;
+  margin: 0px; /*La separación que necesitemos darle con padding para que sea responsivo con box-sizing*/
+  padding: 0px;
+  display: inline-block;
 }
 
-img {
-	height:100%;
-	width: 100%;
-	object-fit: cover;
-}  
+#marco {
+  /* object-fit: cover; */
+  position: relative;
+	top: 0px;
+	left: 0px;
+}
 
-img:hover {
+#marco:hover {
   -ms-transform: scale(1.2 , 1.2);
   -webkit-transform: scale(1.2 , 1.2);
   -moz-transform: scale(1.2 , 1.2);
   -o-transform: scale(1.2 , 1.2);
   transform: scale(1.2 , 1.2);
+  z-index: 1;
+}
+
+img {
+	/* height:100%; */
+  height: 300px;
+	width: 100%;
+	object-fit: cover;
+  z-index: 0;
+}  
+
+figcaption {
+  width: 100%; /* Ponerlo para forzar que coja todo el ancho y no meta marco */
+  background-color: rgba(255, 255, 255, 0.4);			
+  position: absolute;
+  bottom: 4px; 
+  left: 0px;
 }
 
 @media screen and (max-width:1140px) {
@@ -60,6 +171,31 @@ img:hover {
 @media screen and (max-width: 760px) {
 	figure{
 		height: 150px;
+    width: 100%;
 		display:table;/*block situa uno debajo de otro pero se solapan h3 y figcaption*/
 	}
+}
+
+h2{
+  text-align: center;
+  padding: 10px;
+}
+
+p {
+   text-align: justify;
+   padding-left: 10px;   
+}
+
+p:active {
+  opacity: 0.5;
+}
+
+footer > div { /* centrar solo verticalmente */
+  margin: 0;
+  padding-left: 10px;
+  position: relative;
+  top: 50%;
+  left: 0;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
 }

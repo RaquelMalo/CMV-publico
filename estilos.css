@@ -1,14 +1,15 @@
 * {	/* estilos por defecto para TODOS los elementos de la página; */
 	/* estilo:valor; */
 	box-sizing: border-box;
-	background-color: antiquewhite;	
+	/* background-color: antiquewhite;	 
 	padding: 0;
-	margin: 0;
+	margin: 0;*/
 }
 
 h1 {
 	text-align: center;
 	color:indigo;
+	font-family: fantasy;
 	margin: 15px;
 }
 
