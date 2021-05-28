@@ -1,26 +1,49 @@
 * {	/* estilos por defecto para TODOS los elementos de la página; */
 	/* estilo:valor; */
 	box-sizing: border-box;
-	/* background-color: antiquewhite;	 
-	padding: 0;
-	margin: 0;*/
+	/* background-color: antiquewhite;*/
+	padding: 0;	
+	margin: 0;
 }
 
 h1 {
 	text-align: center;
-	color:indigo;
-	font-family: fantasy;
+	color:coral;
+	font-family:fantasy;
+	text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
 	margin: 15px;
 }
 
-/*div {
-  /* estilos para todos los elementos <div>; */
-  /* box-sizing:border-box  incluye en las dimensiones de un elemento el espacio del padding y del border. */
-  /* display:flex   da la misma altura a todos los elementos que están en el mismo DIV 
-  
-} */
+h2{
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+}
 
+h3{
+  padding: 10px;
+}
 
-/* footer div{
-	text-align: left;
-} */
+nav {
+	padding: 10px;
+}
+
+#galeria { 
+  margin: 10px;   
+	text-align: center;
+} 
+
+p {
+  text-align: justify;
+  margin: 10px;
+}
+
+footer > div { /* centrar solo verticalmente */
+  margin: 0;
+  padding-left: 10px;
+  position: relative;
+  top: 50%;
+  left: 0;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+} 

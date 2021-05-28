@@ -1,11 +1,6 @@
-div .centrado {
-	text-align: center;
-}/* Poner espacio entre div y .centrado para decirle que solo los de esta clase se centran */
-
 figure {
 	width: 33%;
 	height: 300px;
-	margin: 0px;
 	display: inline-block;
 }
 
