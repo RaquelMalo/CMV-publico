@@ -1,0 +1,144 @@
+.dia {
+  /* color: var(--fuenteDia); */
+  background-color: #f7f8e8;
+}
+.noche {
+  /* color: var(--fuenteNoche); */
+  background-color: #999999;
+}
+.marco {
+  display: grid;
+  grid-template-columns: 150px repeat(3, 1fr);
+  grid-template-rows: 80px auto auto 40px;
+  grid-gap: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+.encabezado {
+  background-color: #336699;
+  grid-column: 1 / span 4;
+  grid-row: 1 / span 1;
+}
+.menu {
+  background-color: #336699;
+  grid-column: 1 / span 4;
+  grid-row: 2 / span 1;
+}
+.contenido {
+  grid-column: 1 / span 4;
+  grid-row: 3 / span 1;
+  overflow: auto;
+  /*añade scroll a esta parte y no a toda la página, y solo cuando sea necesario */
+}
+.pie {
+  background-color: #336699;
+  grid-column: 1 / span 4;
+  grid-row: 4 / span 1;
+}
+.elementoMenu {
+  padding: 3px 10px 3px 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  color: #ff0000;
+  background-color: #f7f8e8;
+}
+nav {
+  display: flex;
+}
+nav ul {
+  margin: 0px 10px 10px 0px;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  width: 150px;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 5px;
+  display: inline-block;
+  padding: 3px 10px 3px 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  color: #ff0000;
+  background-color: #f7f8e8;
+}
+nav button {
+  margin: 0px 10px 10px 10px;
+  padding: 3px 10px 3px 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  color: #ff0000;
+  background-color: #f7f8e8;
+  position: absolute;
+  right: 0px;
+}
+#menuhorizontal a:hover,
+button:hover {
+  background-color: #ebd67b;
+  box-shadow: 8px 4px 4px #aaa;
+}
+figure {
+  width: 33%;
+  margin: 0px;
+  /*La separación que necesitemos darle con padding para que sea responsivo con box-sizing*/
+  display: inline-block;
+}
+#marco {
+  /* object-fit: cover; */
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+#marco:hover {
+  -ms-transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2, 1.2);
+  -o-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+  z-index: 1;
+}
+img {
+  height: 300px;
+  /* Fijar tamaño en img no en figure */
+  width: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+figcaption {
+  width: 100%;
+  /* Ponerlo para forzar que coja todo el ancho y no meta marco */
+  background-color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  bottom: 4px;
+  left: 0px;
+}
+@media screen and (max-width: 1140px) {
+  /* Jugamos con el tamaño de la pantalla y según la resolución máx ajustamos la altura de la img*/
+  img {
+    height: 225px;
+  }
+}
+@media screen and (max-width: 760px) {
+  figure {
+    width: 50%;
+    display: table;
+    /*block situa uno debajo de otro pero se solapan h3 y figcaption*/
+  }
+  img {
+    height: 150px;
+  }
+  button {
+    position: relative;
+  }
+}
+p:active {
+  opacity: 0.5;
+}
+main {
+  background-color: #f7f8e8;
+}

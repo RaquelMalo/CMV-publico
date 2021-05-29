@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina: Dia / Noche LESS
+autor: Raquel Malo
+fecha: Mayo 2021
+-->
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	
+	<!-- importante SEO para la etiqueta del navegador -->
+	<title>MUNDO VIAJES</title>
+	
+	<!-- una fuente de Google -->
+	<link rel="preconnect" href="https://fonts.gstatic.com"/>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet"/>
+	
+	<!-- una hoja de estilos personalizada-->
+	<link href="estilos.css" rel="stylesheet"/>	
+	<link href="05-24-DiaNocheLESS.css" rel="stylesheet"/>
+	
+	<!-- iconos u otros elementos externos -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	
+	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+	<script src="scripts.js"></script>
+	
+	<!-- scripts personalizados Javascript o JQuery -->
+	<script>
+		// aqui el codigo ...
+	</script>
+</head>
+
+
+<body class="dia">
+
+	<div class="marco">
+		<header class="encabezado">
+			<h1>MUNDO VIAJES</h1>
+			<br/>			
+		</header>
+		<nav class="menu">
+			<ul id="menuhorizontal">
+				<li><a href="#">Opción 1</a></li>
+				<li><a href="#">Opción 2</a></li>
+				<li><a href="#">Opción 3</a></li>
+				<li><a href="#">Opción 4</a></li>		
+			</ul>
+			<button>Día/Noche</button>			
+		</nav>
+		<!-- <nav class="migas">Migas de pan (ruta)</nav> 
+		<aside class="lado">Lado</aside>-->
+		<main class="contenido">
+			
+			<section id="galeria">
+				<!-- utilizar figure y figcaption para posicionamiento (web semántica) -->
+				<figure>
+					<h3>Panorámica de Düsseldorf</h3>
+					<div id="marco">
+						<img alt="Düsseldorf" src="mmedia/Düsseldorf.jpg"/>
+						<figcaption>El Rin a su paso por Düsseldorf</figcaption>
+					</div>				
+				</figure>
+				<figure>
+					<h3>Plaza del Duomo - Milán</h3>
+					<div id="marco">
+						<img alt="Milán"src="mmedia/Milan.jpg"/>
+						<figcaption>Visita a Milán</figcaption>
+					</div>
+				</figure>
+				<figure>
+					<h3>Tour Eiffel Paris</h3>
+					<div id="marco">
+						<img alt="París"src="mmedia/Paris.jpg"/>
+						<figcaption>Disfrutando de París</figcaption>
+					</div>
+				</figure>
+			</section>
+			<section>
+				<h2>Ciudades europeas que he visitado</h2>
+				<p>Aquí tenéis una muestra de alguno de los sitios en que he estado, concretamente las tres últimas 
+				ciudades europeas que he visitado fuera de nuestras fronteras.</p>
+			</section>
+			
+		</main>
+		<footer class="pie">
+			<div>&copy; 2021 By Raquel Malo</div>
+		</footer>
+	</div>
+
+	<script>
+		// seccion de codigo javascript 
+		$("button").click(function(){
+    		$("a, button, main").toggleClass("noche");
+  		});			
+	
+	</script>
+
+</body>
+</html>

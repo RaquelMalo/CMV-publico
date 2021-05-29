@@ -1,0 +1,62 @@
+#menuhorizontal {
+  margin:0px 10px 10px 0px;
+  padding:0px;
+  list-style-type:none;
+}
+#menuhorizontal a {
+  width:150px;
+  text-decoration:none;
+  font-size: 20px;
+  text-align:center;  
+  color:#ff0000;
+  margin-right: 5px;
+  background-color:#f7f8e8;
+  padding:3px 10px 3px 10px;
+  border-radius: 20px; 
+  border:1px solid black;
+  display:inline-block;
+}
+
+#menuhorizontal li {
+  /* float:left;   */
+  display:inline-block;
+}
+
+#menuhorizontal a:hover {
+  background-color:#336699;
+  box-shadow: 8px 4px 4px #aaa;
+}
+
+#carouselExampleIndicators {
+  margin: auto; /* Necesito margin auto para centrar imagen */
+  max-width: 500px;
+  margin-top: 30px;
+}
+
+#marco {
+  position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+img {  
+  object-fit: cover;  
+	height:300px;
+} 
+
+figcaption {
+  width: 100%; /* Ponerlo para forzar que coja todo el ancho y no meta marco */
+  background-color: rgba(255, 255, 255, 0.4);			
+  position: absolute;
+  bottom: 0px; 
+  left: 0px;
+  text-align: center;
+}
+
+section{
+  margin-top: 30px;
+}
+
+p:active {
+ opacity: 0.5;
+}
