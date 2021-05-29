@@ -1,17 +1,29 @@
+/* :root {
+  --modo: "dia";
+} */
+
 @colorFijo: #336699;
 @fuenteDia : #ff0000;
 @fuenteNoche: #0000ff;
 @fondoDia:  #f7f8e8;
 @fondoNoche:#999999;
-@modo: "dia";
+// @modo: var(--modo);
 
 .dia {
-  /* color: var(--fuenteDia); */
-  background-color: @fondoDia;
+  color: @fuenteDia;
+  .diaBg();
 }
 
 .noche {
-  /* color: var(--fuenteNoche); */
+  color: @fuenteNoche;
+  .nocheBg();
+}
+
+.diaBg {
+  background-color: @fondoDia;
+}
+
+.nocheBg {
   background-color: @fondoNoche;
 }
 
@@ -53,8 +65,8 @@
   font-size: 20px;
   border-radius: 20px; 
   border:1px solid black;   
-  color: if((@modo="dia"),@fuenteDia,@fondoNoche);
-  background-color: if((@modo="dia"),@fondoDia,@fondoNoche);
+  color: @fuenteDia;//if((@modo="dia"),@fuenteDia,@fuenteNoche);
+  background-color: @fondoDia;//if((@modo="dia"),@fondoDia,@fondoNoche);
 }
 
 nav {
@@ -82,7 +94,7 @@ nav {
   }
 }
 
-#menuhorizontal a:hover, button:hover {
+a:hover, button:hover {
   background-color:#ebd67b;
   box-shadow: 8px 4px 4px #aaa;
 }
@@ -96,8 +108,8 @@ figure {
 #marco {
   /* object-fit: cover; */
   position: relative;
-    top: 0px;
-    left: 0px;
+  top: 0px;
+  left: 0px;
 }
 
 #marco:hover {
@@ -139,7 +151,7 @@ figcaption {
   img{    
     height: 150px;
   }
-  button{
+  nav button{
     position: relative;
   }
 }
@@ -148,6 +160,6 @@ p:active {
   opacity: 0.5;
 }  
   
-main{
+/* main{
   background-color: if((@modo="dia"),@fondoDia,@fondoNoche);
-} 
+}  */

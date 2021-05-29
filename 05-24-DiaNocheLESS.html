@@ -39,15 +39,15 @@ fecha: Mayo 2021
 </head>
 
 
-<body class="dia">
+<body class="diaBg">
 
 	<div class="marco">
 		<header class="encabezado">
 			<h1>MUNDO VIAJES</h1>
 			<br/>			
 		</header>
-		<nav class="menu">
-			<ul id="menuhorizontal">
+		<nav class=menu>
+			<ul>
 				<li><a href="#">Opción 1</a></li>
 				<li><a href="#">Opción 2</a></li>
 				<li><a href="#">Opción 3</a></li>
@@ -96,11 +96,19 @@ fecha: Mayo 2021
 	</div>
 
 	<script>
-		// seccion de codigo javascript 
+		// Esta función establecía el color sin pulsar el botón
+		/* function cambiaColor(){
+			if(getComputedStyle(document.root).getPropertyValue('--modo') == "dia"){
+				document.root.style.setProperty("--modo", "noche");
+			} else {
+				document.root.style.setProperty("--modo", "dia");
+			}    		
+  		};		 */	
+		
 		$("button").click(function(){
-    		$("a, button, main").toggleClass("noche");
-  		});			
-	
+    		$("a, button").toggleClass("noche");
+			$("main").toggleClass("nocheBg");
+  		});		
 	</script>
 
 </body>

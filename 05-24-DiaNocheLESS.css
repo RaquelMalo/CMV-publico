@@ -1,9 +1,18 @@
+/* :root {
+  --modo: "dia";
+} */
 .dia {
-  /* color: var(--fuenteDia); */
+  color: #ff0000;
   background-color: #f7f8e8;
 }
 .noche {
-  /* color: var(--fuenteNoche); */
+  color: #0000ff;
+  background-color: #999999;
+}
+.diaBg {
+  background-color: #f7f8e8;
+}
+.nocheBg {
   background-color: #999999;
 }
 .marco {
@@ -77,7 +86,7 @@ nav button {
   position: absolute;
   right: 0px;
 }
-#menuhorizontal a:hover,
+a:hover,
 button:hover {
   background-color: #ebd67b;
   box-shadow: 8px 4px 4px #aaa;
@@ -132,13 +141,13 @@ figcaption {
   img {
     height: 150px;
   }
-  button {
+  nav button {
     position: relative;
   }
 }
 p:active {
   opacity: 0.5;
 }
-main {
-  background-color: #f7f8e8;
-}
+/* main{
+  background-color: if((@modo="dia"),@fondoDia,@fondoNoche);
+}  */
