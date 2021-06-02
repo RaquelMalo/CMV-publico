@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina: Arrays con JS
+entorno: curso Accenture-CMV
+autor: Raquel Malo
+fecha: 31 Mayo 2021
+-->
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<!-- importante SEO para la etiqueta del navegador -->
+	<title>CMS-Accenture - Arrays con JavaScript</title>
+	
+	<!-- una fuente de Google -->
+	<link rel="preconnect" href="https://fonts.gstatic.com"/>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet"/>
+	
+	<!-- una hoja de estilos personalizada-->
+	<link href="05-31-xml.css" rel="stylesheet"/>
+	
+	<!-- iconos u otros elementos externos -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	
+	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+	<script src="05-31-xml.js"></script>
+</head>
+
+
+<body onload="leerXML()">
+
+	<!-- cabecera de pagina -->
+	<header>
+		<h1>CMS-Accenture - Arrays con JavaScript</h1>
+		<h2> cargar desde un XML </h2>
+		<br/>
+	</header>
+	
+	<!-- bloque de contenido de la pagina -->
+	<main>
+		<p>Contenido XML:</p>
+		<p id="mensaje">... datos originales ...</p>
+		<br/>
+		<button type="button" onclick="ascNombre()">Orden ascendente por nombre</button>			
+		<button type="button" onclick="descClave()">Orden descendente por clave</button>		
+		<p>Aquí el xml ordenado como solicitaste:</p>
+		<p id="ordenado">... datos ordenados ...</p>
+		<br/>
+		<input type="text" id="usuario" name="usr" placeholder="(usuario)">
+		<button onclick="mostrarClave()">Mostrar clave</button>
+		<p>Clave solicitada:</p>
+		<p id="claveBuscada">... del usuario elegido ...</p>
+	</main>
+
+
+	<!-- pie de pagina -->
+	<footer>
+		<br/><br/><br/>
+		<div>&copy; 2021 <a href="https://raquelmalo.github.io/CMV-publico/" target="_blank">Alumna Raquel Malo</a></div>
+	</footer>
+</body>
+</html>
