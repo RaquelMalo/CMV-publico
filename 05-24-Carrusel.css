@@ -1,3 +1,268 @@
+@charset "UTF-8";
+/*!
+* Start Bootstrap - Heroic Features v4.3.0 (https://startbootstrap.com/template/heroic-features)
+* Copyright 2013-2021 Start Bootstrap
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-heroic-features/blob/master/LICENSE)
+*/
+/*!
+ * Bootstrap v4.6.0 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+*,
+*::before,
+*::after {/*imposible dar color a todo porque se descuajeringa el slider*/
+  box-sizing: border-box;
+  /* añadido por mí */
+  margin: 0;
+  padding: 0;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel.pointer-event {
+  touch-action: pan-y;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.carousel-inner::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.carousel-item {
+  position: relative;
+  display: none;
+  float: left;
+  width: 100%;
+  margin-right: -100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transition: transform 0.6s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .carousel-item {
+    transition: none;
+  }
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: block;
+}
+
+.carousel-item-next:not(.carousel-item-left),
+.active.carousel-item-right {
+  transform: translateX(100%);
+}
+
+.carousel-item-prev:not(.carousel-item-right),
+.active.carousel-item-left {
+  transform: translateX(-100%);
+}
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition-property: opacity;
+  transform: none;
+}
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+  z-index: 1;
+  opacity: 1;
+}
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0s 0.6s;
+}
+@media (prefers-reduced-motion: reduce) {
+  .carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+    transition: none;
+  }
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  color: #fff;
+  text-align: center;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .carousel-control-prev,
+.carousel-control-next {
+    transition: none;
+  }
+}
+.carousel-control-prev:hover, .carousel-control-prev:focus,
+.carousel-control-next:hover,
+.carousel-control-next:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: 0.9;
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next {
+  right: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: 50%/100% 100% no-repeat;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5L4.25 4l2.5-2.5L5.25 0z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5L3.75 4l-2.5 2.5L2.75 8l4-4-4-4z'/%3e%3c/svg%3e");
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 15;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  list-style: none;
+}
+.carousel-indicators li {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  .carousel-indicators li {
+    transition: none;
+  }
+}
+.carousel-indicators .active {
+  opacity: 1;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.w-100 {
+  width: 100% !important;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (min-width: 768px) {
+  .d-md-block {
+    display: block !important;
+  } 
+}/*Fin bootstrap con los elemento necesarios*/
+
+
+/* Mi CSS*/
+header{
+  background-color: #336699;
+}
+
+h1 {
+	text-align: center;
+	color:coral;
+	font-family:fantasy;
+	text-shadow: 2px 2px 4px #000000;
+	padding-top: 15px;
+}
+
+h2{
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+nav {
+	padding: 10px;
+}
+
+section > p {
+  text-align: justify;
+  padding: 10px;
+}
+
+footer{
+  padding: 10px;
+  background-color: #336699;  
+}
+
 #menuhorizontal {
   margin:0px 10px 10px 0px;
   padding:0px;
@@ -18,45 +283,32 @@
 }
 
 #menuhorizontal li {
-  /* float:left;   */
   display:inline-block;
 }
 
 #menuhorizontal a:hover {
-  background-color:#336699;
+  background-color: #ebd67b;
   box-shadow: 8px 4px 4px #aaa;
 }
 
-#carouselExampleIndicators {
-  margin: auto; /* Necesito margin auto para centrar imagen */
-  max-width: 500px;
-  margin-top: 30px;
-}
-
-#marco {
-  position: relative;
-	top: 0px;
-	left: 0px;
+.container{ 
+  padding: 20px; 
+  width: 700px; /*Aquí definir ancho*/
+  margin: auto;  
 }
 
 img {  
-  object-fit: cover;  
-	height:300px;
-} 
-
-figcaption {
-  width: 100%; /* Ponerlo para forzar que coja todo el ancho y no meta marco */
-  background-color: rgba(255, 255, 255, 0.4);			
-  position: absolute;
-  bottom: 0px; 
-  left: 0px;
-  text-align: center;
+  height: 500px; /*Aquí definir alto*/
+  object-fit: cover;
 }
 
-section{
-  margin-top: 30px;
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
 }
-
-p:active {
- opacity: 0.5;
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
 }

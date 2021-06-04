@@ -10,120 +10,95 @@ fecha: Mayo 2021
 -->
 
 <head>
-	<meta charset="UTF-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	
-	<!-- importante SEO para la etiqueta del navegador -->
-	<title>Mis viajes</title>
-	
-	<!-- una fuente de Google -->
-	<link rel="preconnect" href="https://fonts.gstatic.com"/>
-	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet"/>
-	
-	<!-- una hoja de estilos externa-->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-	
-	<!-- una hoja de estilos personalizada-->
-	<link href="estilos.css" rel="stylesheet"/>
-	<link href="05-24-Carrusel.css" rel="stylesheet"/>
-	
-	<!-- iconos u otros elementos externos -->
-	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
-	
-	<!-- solo aquellos estilos que solo aplican a esta pagina -->
-    <style>
-		body {
-			background:antiquewhite;
-		}
-	</style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Mis viajes</title>
+    <!-- una hoja de estilos externa (mejor pegar el estilo en tu css o suele dar problemas)-->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> -->
+    <!-- una hoja de estilos personalizada-->
+    <link href="05-24-Carrusel.css" rel="stylesheet" />
 
-	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	
-	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
-	<script src="scripts.js"></script>
 </head>
 
-
 <body>
+    <header>
+        <h1>VIAJES</h1>
+        <br />
+        <!-- Navigation-->
+        <nav>
+            <ul id="menuhorizontal">
+                <li><a href="#">Opción 1</a></li>
+                <li><a href="#">Opción 2</a></li>
+                <li><a href="#">Opción 3</a></li>
+                <li><a href="#">Opción 4</a></li>
+            </ul>
+        </nav>
+    </header>
 
-	<!-- cabecera de pagina -->
-	<header>
-		<h1>VIAJES</h1>
-		<br/>
-	</header>
-	
-	<!-- barra de navegación -->	
-	<nav>
-		<ul id="menuhorizontal">
-			<li><a href="#">Opción 1</a></li>
-			<li><a href="#">Opción 2</a></li>
-			<li><a href="#">Opción 3</a></li>
-			<li><a href="#">Opción 4</a></li>
-		</ul>
-	</nav>
-	
-	<!-- bloque de contenido de la pagina -->	
-	<main>	
-		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-				<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-			</ol>
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<figure id="marco">
-						<img class="d-block w-100" src="mmedia/Düsseldorf.jpg" alt="First slide">
-						<figcaption>El Rin a su paso por Düsseldorf</figcaption>
-					</figure>
-				</div>
-				<div class="carousel-item">
-					<figure id="marco">
-						<img class="d-block w-100" src="mmedia/Milan.jpg" alt="Second slide">
-						<figcaption>Plaza del Duomo - Milán</figcaption>
-					</figure>
-				</div>
-				<div class="carousel-item">
-					<figure id="marco">
-						<img class="d-block w-100" src="mmedia/Paris.jpg" alt="First slide">
-						<figcaption>Disfrutando de París</figcaption>
-					</figure>
-				</div>
-			</div>
-			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="sr-only">Previous</span>
-			</a>
-			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="sr-only">Next</span>
-			</a>
-		</div>
-		
-		<section>
-			<h2>Ciudades europeas que he visitado</h2>
-			<p>Aquí tenéis una muestra de alguno de los sitios en que he estado, concretamente las tres últimas 
-			ciudades europeas que he visitado fuera de nuestras fronteras.</p>
-		</section>
-	</main>
 
-	<!-- pie de pagina -->
-	<footer class="pie">
-		<br/><br/><br/>
-		<div>&copy; 2021 By Raquel Malo</div>
-	</footer>
+    <!-- Page Content-->
+    <main>
+        <section class="container">
+            <!-- Slider -->
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="mmedia/Düsseldorf.jpg" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>DÜSSELDORF</h5>
+                            <p>El Rin a su paso por Düsseldorf</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="mmedia/Milan.jpg" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>MILÁN</h5>
+                            <p>Plaza del Duomo</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="mmedia/Paris.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>PARÍS</h5>
+                            <p>Vista del Sena y la Tour Eiffel</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!-- </section>
+    
+        <section> -->
+            <h2>Ciudades europeas que he visitado</h2>
+            <p>Aquí tenéis una muestra de alguno de los sitios en que he estado, concretamente las tres últimas
+                ciudades europeas que he visitado fuera de nuestras fronteras.</p>
+        </section>
+    </main>
 
-	<script>
-		// seccion de codigo javascript 
-		$('.carousel').carousel({
-			interval: 3000,
-			ride: true,
-			cycle:"right"
-		})	
-	
-	</script>
+    <!-- Footer-->
+    <footer>
+        <div> © 2021 By Raquel Malo</div>
+    </footer>
 
+    <!-- Bootstrap core JS (necesito las dos librerías JS)-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Usar BOOTSTRAP 4!!! El 5 no funciona -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script> -->
 
 </body>
+
 </html>

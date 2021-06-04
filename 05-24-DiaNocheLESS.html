@@ -39,7 +39,7 @@ fecha: Mayo 2021
 </head>
 
 
-<body class="diaBg">
+<body onload=alInicio() class="diaBg">
 
 	<div class="marco">
 		<header class="encabezado">
@@ -96,6 +96,15 @@ fecha: Mayo 2021
 	</div>
 
 	<script>
+		//Valores DOM para manejar y hacer responsiva la página
+		var w, h, ah, aw;
+		function alInicio(){
+			w = window.innerWidth;
+			h = window.innerHeight;
+			ah = screen.availHeight;
+			aw = screen.availWidth;
+		}
+
 		// Esta función establecía el color sin pulsar el botón
 		/* function cambiaColor(){
 			if(getComputedStyle(document.root).getPropertyValue('--modo') == "dia"){
@@ -103,7 +112,7 @@ fecha: Mayo 2021
 			} else {
 				document.root.style.setProperty("--modo", "dia");
 			}    		
-  		};		 */	
+  		};*/	
 		
 		$("button").click(function(){
     		$("a, button").toggleClass("noche");

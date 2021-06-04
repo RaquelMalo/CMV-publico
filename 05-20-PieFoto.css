@@ -1,6 +1,5 @@
 #menuhorizontal {
   margin:0px 10px 10px 0px;
-  padding:0px;
   list-style-type:none;
 }
 #menuhorizontal a {
@@ -31,6 +30,8 @@ figure {
 	width: 33%; /* El padding se tiene en cuenta en este 33%, el margin no porque está fuera del elemento */
   /*height: 300px;*/  
   /*La separación que necesitemos darle con padding para que sea responsivo con box-sizing*/
+  padding-top: 10px;
+  text-align: center; 
 	display: inline-block;
 }
 
@@ -73,7 +74,8 @@ figcaption {
 
 @media screen and (max-width: 760px) {
 	figure{
-    /* width: 50%; */
+    width: 50%;
+    margin: auto;
 		display:table;/*block situa uno debajo de otro pero se solapan h3 y figcaption*/
 	}
   img{

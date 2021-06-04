@@ -94,9 +94,9 @@ function descClave() {
 function mostrarClave() {
   let dato = $("#usuario").val().toUpperCase();
   let pwd = null;
-  
+
   for (i = 0; i < registrados.length; i++) {
-    if (dato == registrados[i][0]) {
+    if (dato == registrados[i][0].toUpperCase()) { //Aquí están todos los nombres de usuario en mayúscula pero mejor no darlo por hecho y asegurar la comparación
       pwd = registrados[i][1];
       break;
     }

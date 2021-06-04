@@ -118,6 +118,7 @@ button {
 
 figure {
 	width: 33%;
+  text-align: center;
   display: inline-block;
 }
 

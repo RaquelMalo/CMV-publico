@@ -1,6 +1,5 @@
 #menuhorizontal {
   margin:0px 10px 10x 0px;
-  padding:0px;
   list-style-type:none;
 }
 #menuhorizontal a {
@@ -31,7 +30,8 @@ figure {
 	width: 33%;
 	height: 300px;
 	margin: 0px; /*La separación que necesitemos darle con padding para que sea responsivo con box-sizing*/
-	display: inline-block;
+	text-align: center;
+  display: inline-block;  
 }
 
 img {

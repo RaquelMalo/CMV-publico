@@ -10,8 +10,8 @@ h1 {
 	text-align: center;
 	color:coral;
 	font-family:fantasy;
-	text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
-	margin: 15px;
+	text-shadow: 2px 2px 4px #000000;
+	margin-top: 15px;
 }
 
 h2{
@@ -29,21 +29,19 @@ nav {
 }
 
 #galeria { 
-  margin: 10px;   
-	text-align: center;
+  margin: 10px;
 } 
 
 p {
   text-align: justify;
-  margin: 10px;
+  padding: 10px;
 }
 
 footer > div { /* centrar solo verticalmente */
-  margin: 0;
-  padding-left: 10px;
+  padding: 10px;
   position: relative;
   top: 50%;
   left: 0;
   -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-} 
+  transform: translate(0, -50%);  
+}

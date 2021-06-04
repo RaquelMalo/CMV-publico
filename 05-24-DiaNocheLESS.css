@@ -93,9 +93,9 @@ button:hover {
 }
 figure {
   width: 33%;
-  margin: 0px;
-  /*La separación que necesitemos darle con padding para que sea responsivo con box-sizing*/
+  text-align: center;
   display: inline-block;
+  padding-top: 10px;
 }
 #marco {
   /* object-fit: cover; */
@@ -135,6 +135,7 @@ figcaption {
 @media screen and (max-width: 760px) {
   figure {
     width: 50%;
+    margin: auto;
     display: table;
     /*block situa uno debajo de otro pero se solapan h3 y figcaption*/
   }
