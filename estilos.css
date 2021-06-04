@@ -11,7 +11,7 @@ h1 {
 	color:coral;
 	font-family:fantasy;
 	text-shadow: 2px 2px 4px #000000;
-	margin-top: 15px;
+	padding-top: 15px;
 }
 
 h2{
@@ -39,9 +39,7 @@ p {
 
 footer > div { /* centrar solo verticalmente */
   padding: 10px;
-  position: relative;
-  top: 50%;
-  left: 0;
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);  
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
 }
