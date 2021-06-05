@@ -1,28 +1,30 @@
+body {background-color: #f7f8e8;}
+
 #menuhorizontal {
-  margin:0px 10px 10px 0px;
+  margin: 5px 0px 5px 0px;
   list-style-type:none;
 }
+
 #menuhorizontal a {
-  width:150px;
+  width:140px;
   text-decoration:none;
   font-size: 20px;
   text-align:center;  
   color:#ff0000;
-  margin-right: 5px;
+  margin: 3px 5px 0px 0px;
   background-color:#f7f8e8;
-  padding:3px 10px 3px 10px;
+  padding:3px 5px 3px 5px;
   border-radius: 20px; 
   border:1px solid black;
   display:inline-block;
 }
 
 #menuhorizontal li {
-  /* float:left;   */
-  display:inline-block;
+  display: inline-block;
 }
 
 #menuhorizontal a:hover {
-  background-color:#336699;
+  background-color:#ebd67b;
   box-shadow: 8px 4px 4px #aaa;
 }
 
@@ -34,7 +36,7 @@
 
 figure {
   /*width: 25%;  El padding se tiene en cuenta en este 33%, el margin no porque está fuera del elemento */
-  width: 300px;
+  width: 400px;
   text-align: center; 
   padding-top: 10px;
 }
@@ -55,7 +57,7 @@ figure {
 }
 
 img {
-	height:200px;
+	height:300px;
 	width: 100%;
   object-fit: cover;
   z-index: 0;
@@ -71,21 +73,20 @@ figcaption {
 
 @media screen and (max-width:1140px) {
 	/* Jugamos con el tamaño de la pantalla y según la resolución máx ajustamos la altura de la img*/
-	
 	figure{
-		width: 250px;
+		width: 300px;
 	}
 	img{
-		height: 150px;
+		height: 200px;
 	}
 }
 
 @media screen and (max-width: 760px) {
 	figure{ 
-     width: 175px;     
+     width: 200px;     
 	}
 	img{
-	  height: 100px;
+	  height: 150px;
 	}
 }
 
