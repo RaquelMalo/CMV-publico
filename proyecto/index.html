@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina: proyecto final
+entorno: curso Accenture-CMV
+autor: Raquel Malo
+fecha: Mayo 2021
+-->
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	
+	<!-- importante SEO para la etiqueta del navegador -->
+	<title>Mis viajes</title>
+	
+	<!-- una fuente de Google -->
+	<link rel="preconnect" href="https://fonts.gstatic.com"/>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet"/>
+	
+	<!-- una hoja de estilos externa-->
+	
+	<!-- una hoja de estilos personalizada-->
+	<link href="styles.css" rel="stylesheet"/>
+	
+	<!-- iconos u otros elementos externos -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	
+	<!-- solo aquellos estilos que solo aplican a esta pagina -->
+    
+	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+	<script src="scripts.js"></script>
+</head>
+
+
+<body onload="leerXML()">
+
+	<!-- cabecera de pagina -->
+	<header>
+        <h1>VIAJES</h1>
+        <!-- barra de navegación-->
+        <nav>
+            <ul id="menuhorizontal">
+                <!-- <li><a href="#">Proyecto</a></li> -->
+                <li><a href="#">Ejercicios</a></li>
+                <li><a href="#">Sobre mí</a></li>
+                <!-- <li><a href="#">Turismo rural</a></li> -->
+            </ul>
+        </nav>
+    </header>
+	
+	<!-- bloque de contenido de la pagina -->	
+	<main>
+		<section id="galeria"></section>
+		
+		<section>
+			<h2>Ciudades europeas que he visitado</h2>
+			<p>Aquí tenéis una muestra de alguno de los sitios en que he estado, concretamente las cinco últimas 
+			ciudades europeas que he visitado fuera de nuestras fronteras.</p>
+		</section>		
+	</main>
+
+	<!-- pie de pagina -->
+	<footer class="pie">
+		<div>&copy; 2021 By Raquel Malo</div>
+	</footer>
+</body>
+</html>

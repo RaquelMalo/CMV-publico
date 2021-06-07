@@ -1,0 +1,27 @@
+* {	/* estilos por defecto para TODOS los elementos de la página; */
+	/* estilo:valor; */
+	box-sizing: border-box;
+	background-color: antiquewhite;	
+}
+
+h1 {
+	text-align: center;
+	color:indigo;
+	margin: 15px;
+}
+
+h2{
+	text-align: center;
+}
+
+div {
+  margin: auto; 
+  text-align: center;	
+  }   
+
+div.graficos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding-top: 15px;
+}

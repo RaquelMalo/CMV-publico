@@ -1,0 +1,142 @@
+* {	/* estilos por defecto para TODOS los elementos de la página; */
+	box-sizing: border-box;
+	background-color: #f7f8e8;
+	padding: 0;	
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+	color:coral;
+	font-family:fantasy;
+	text-shadow: 2px 2px 4px #000000;
+	padding-top: 15px;
+}
+
+h2{
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+h3{
+  padding: 10px;
+}
+
+nav {
+	padding: 10px;
+}
+
+#galeria { 
+  margin: 10px;
+} 
+
+p {
+  text-align: justify;
+  padding: 10px;
+}
+
+footer > div { /* centrar solo verticalmente */
+  padding: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+/* body {background-color: #f7f8e8;} */
+
+#menuhorizontal {
+  margin: 5px 0px 5px 0px;
+  list-style-type:none;
+}
+
+#menuhorizontal a {
+  width:150px;
+  text-decoration:none;
+  font-size: 20px;
+  text-align:center;  
+  color:#ff0000;
+  margin: 3px 5px 0px 0px;
+  background-color:#f7f8e8;
+  padding:3px 5px 3px 5px;
+  border-radius: 20px; 
+  border:1px solid black;
+  display:inline-block;
+}
+
+#menuhorizontal li {
+  display: inline-block;
+}
+
+#menuhorizontal a:hover {
+  background-color:#ebd67b;
+  box-shadow: 8px 4px 4px #aaa;
+}
+
+#galeria{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+figure {
+  /*width: 25%;  El padding se tiene en cuenta en este 33%, el margin no porque está fuera del elemento */
+  width: 400px;
+  text-align: center; 
+  padding-top: 10px;
+}
+
+#marco {
+  position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+#marco:hover {
+  -ms-transform: scale(1.2 , 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2 , 1.2);
+  -o-transform: scale(1.2 , 1.2);
+  transform: scale(1.2 , 1.2);
+  z-index: 1;
+}
+
+img {
+	height:300px;
+	width: 100%;
+  object-fit: cover;
+  z-index: 0;
+}  
+
+figcaption {
+  width: 100%; /* Ponerlo para forzar que coja todo el ancho y no meta marco */
+  background-color: rgba(255, 255, 255, 0.4);			
+  position: absolute;
+  bottom: 4px; 
+  left: 0px;
+}
+
+@media screen and (max-width:1140px) {
+	/* Jugamos con el tamaño de la pantalla y según la resolución máx ajustamos la altura de la img*/
+	figure{
+		width: 300px;
+	}
+	img{
+		height: 200px;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	figure{ 
+     width: 200px;     
+	}
+	img{
+	  height: 150px;
+	}
+}
+
+p:active {
+ opacity: 0.5;
+}
+
+header,footer{background-color: #336699;}

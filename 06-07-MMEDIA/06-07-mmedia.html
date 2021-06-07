@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina: Ejercicio multimedia HTML5
+entorno: curso Accenture-CMV
+autor: Raquel Malo
+fecha: Mayo 2021
+-->
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	
+	<!-- importante SEO para la etiqueta del navegador -->
+	<title>Viajando por el mundo</title>
+	
+	<!-- una fuente de Google -->
+	<link rel="preconnect" href="https://fonts.gstatic.com"/>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet"/>
+	
+	<!-- una hoja de estilos externa-->
+	
+	<!-- una hoja de estilos personalizada-->
+	<link href="06-07-mmedia.css" rel="stylesheet"/>
+	
+	<!-- iconos u otros elementos externos -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+	
+	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+	<!-- <script src="00-modelo.js"></script> -->
+	
+	<!-- scripts personalizados Javascript o JQuery -->
+	<script>
+		// aqui el codigo ...
+	</script>
+</head>
+
+
+<body>
+
+	<!-- cabecera de pagina -->
+	<header>
+		<h1>VIAJES</h1>
+		<h2>Destino Aragón</h2>
+		<br/>
+	</header>
+	
+	<!-- bloque de contenido de la pagina -->
+	<!-- div para organizar contenidos -->
+	<div>
+		<video width="642" height="361" controls crossorigin> <!-- Para vídeos propios. Si no lo descargo, poner directamente el iframe de youtube -->
+			<source type="video/mp4" src="ARAGON_TU_REINO.mp4" />
+			<!-- Desde github no funciona!! -->
+			<!-- <track kind="subtitles" src="https://raquelmalo.github.io/CMV-publico/mmedia/pruebaAudio.vtt" srclang="en" label="english" default><track> -->
+			<track kind="subtitles" src="prueba.vtt" srclang="en" label="english" default></track>
+			<p>Your browser doesn't support HTML5 video. Here is a <a href="https://www.youtube.com/watch?v=moT7kUK-z-Q">link to the video</a> instead.</p>
+		</video>
+		<!-- <iframe width="642" height="361" src="https://www.youtube.com/embed/moT7kUK-z-Q" title="YouTube video player"  -->
+		<!-- frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+		<br/><br/>
+		<audio id="audio-player" controls>
+		  <source src="Musica_de_viaje.mp3" type="audio/mp3">
+		  <track kind="subtitles" src="pruebaAudio.vtt" srclang="es" label="spanish" default></track>
+		  <p>Your browser doesn't support HTML5 audio. Here is a <a href="Musica_de_viaje.mp3">link to the audio</a> instead.</p>
+		</audio>
+		<div id="subtitle-display"></div>
+	<div>
+	
+	<div class="graficos">
+		<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+				Your browser does not support the HTML canvas tag.</canvas>
+	
+		<svg width="300" height="200">
+		  <polygon points="100,10 40,198 190,78 10,78 160,198"
+		  style="fill:yellow;stroke:indigo;stroke-width:5;fill-rule:evenodd;" />
+		</svg>		
+	</div>
+
+
+	<!-- pie de pagina -->
+	<footer>
+		<br/><br/><br/>
+		<div>&copy; 2020 By Raquel Malo</div>
+	</footer>
+
+	<script>
+		// seccion de codigo javascript 
+		<!-- document.getElementById('audio-player').textTracks[0].addEventListener('cuechange', function() { -->
+			<!-- document.getElementById('subtitle-display').innerText = this.activeCues[0].text; -->
+		<!-- }); -->
+		$('audio')[0].textTracks[0].oncuechange = function() { 
+			var currentCue = this.activeCues[0].text;
+			$('#subtitle-display').html(currentCue);
+		}
+		var c = document.getElementById("myCanvas");
+		var ctx = c.getContext("2d");
+		ctx.font = "30px Arial";
+		ctx.strokeText("Hello World", 24, 57);
+	</script>
+</body>
+</html>
