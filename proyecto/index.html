@@ -38,19 +38,20 @@ fecha: Mayo 2021
 </head>
 
 
-<body onload="leerXML()">
+<body onload="leerXML()" class="diaBg">
 
 	<!-- cabecera de pagina -->
 	<header>
-        <h1>VIAJES</h1>
+        <h1>VIAJANDO POR EL MUNDO</h1>
         <!-- barra de navegación-->
         <nav>
             <ul id="menuhorizontal">
                 <!-- <li><a href="#">Proyecto</a></li> -->
                 <li><a href="https://raquelmalo.github.io/CMV-publico">Ejercicios</a></li>
-                <li><a href="#">Sobre mí</a></li> <!-- enlace externo con el vídeo presentación a Google Drive-->
+                <li><a href="#">Más info</a></li> <!-- enlace externo con el vídeo presentación a Google Drive-->
                 <!-- <li><a href="#">Turismo rural</a></li> -->
             </ul>
+			<button>Día / Noche</button>
         </nav>
     </header>
 	
@@ -61,8 +62,18 @@ fecha: Mayo 2021
 	</main>
 
 	<!-- pie de pagina -->
-	<footer class="pie">
+	<footer>
 		<div>&copy; 2021 By Raquel Malo</div>
 	</footer>
+	
+	<script>
+		// seccion de codigo JQuery 
+		$("button").click(function(){
+    		$("a, button").toggleClass("noche");
+			$("main").toggleClass("nocheBg");
+  		});		
+	
+	</script>
+
 </body>
 </html>

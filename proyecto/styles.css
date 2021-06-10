@@ -1,8 +1,37 @@
 * {	/* estilos por defecto para TODOS los elementos de la página; */
 	box-sizing: border-box;
-	background-color: #f7f8e8;
 	padding: 0;	
 	margin: 0;
+}
+
+:root {
+  --fuenteDia : #ff0000;
+  --fuenteNoche: #0000ff;
+  --colorFijo: #336699;
+  --fondoDia:  #f7f8e8;
+  --fondoNoche:#999999;
+}
+
+.dia {
+  color: var(--fuenteDia);
+  background-color: var(--fondoDia);
+}
+.noche {
+  color: var(--fuenteNoche);
+  background-color: var(--fondoNoche);
+}
+.diaBg {
+   background-color: var(--fondoDia);
+}
+.nocheBg {
+  background-color: var(--fondoNoche);
+}
+
+body {/*dar color aquí (no en *) para que tenga color de fondo la galeria (main)*/
+  background-color: #f7f8e8;
+}
+header, footer {
+  background-color: #336699;
 }
 
 h1 {
@@ -25,55 +54,47 @@ h3{
 
 nav {
 	padding: 10px;
+	display: flex;
 }
-
-#galeria { 
-  margin: 10px;
-} 
-
-p {
-  text-align: justify;
-  padding: 10px;
-}
-
-footer > div { /* centrar solo verticalmente */
-  padding: 10px;
-  display: flex;
-  align-content: center;
-  justify-content: flex-start;
-}
-
-/* body {background-color: #f7f8e8;} */
-
-#menuhorizontal {
+nav ul {
   margin: 5px 0px 5px 0px;
-  list-style-type:none;
+  list-style-type: none;
 }
-
-#menuhorizontal a {
-  width:150px;
-  text-decoration:none;
-  font-size: 20px;
-  text-align:center;  
-  color:#ff0000;
-  margin: 3px 5px 0px 0px;
-  background-color:#f7f8e8;
-  padding:3px 5px 3px 5px;
-  border-radius: 20px; 
-  border:1px solid black;
-  display:inline-block;
-}
-
-#menuhorizontal li {
+nav ul li {
   display: inline-block;
 }
+nav ul li a {
+  width: 130px;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 5px;
+  display: inline-block;
+  padding: 3px 10px 3px 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  color: var(--fuenteDia);
+  background-color: var(--fondoDia);
+}
+nav button {
+  margin: 5px 10px 5px 5px;
+  padding: 3px 10px 3px 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  color: var(--fuenteDia);
+  background-color: var(--fondoDia);
+  position: absolute;
+  right: 0px;
+}
 
-#menuhorizontal a:hover {
+a:hover, button:hover {
   background-color:#ebd67b;
   box-shadow: 8px 4px 4px #aaa;
 }
 
 #galeria{
+	padding: 10px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -135,8 +156,20 @@ figcaption {
 	}
 }
 
-p:active {
- opacity: 0.5;
+@media screen and (max-width: 460px) {
+	nav button {
+		position: relative;
+	}
 }
 
-header,footer{background-color: #336699;}
+p {
+  text-align: justify;
+  padding: 10px;
+}
+
+footer > div { /* centrar solo verticalmente */
+  padding: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+}
