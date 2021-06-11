@@ -31,7 +31,6 @@ figure {
   /*height: 300px;*/  
   /*La separación que necesitemos darle con padding para que sea responsivo con box-sizing*/
   padding-top: 10px;
-  text-align: center; 
 	display: inline-block;
 }
 

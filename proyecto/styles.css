@@ -94,7 +94,8 @@ a:hover, button:hover {
 }
 
 #galeria{
-	padding: 10px;
+	padding: 10px;  
+  text-align: center; 
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -103,30 +104,48 @@ a:hover, button:hover {
 figure {
   /*width: 25%;  El padding se tiene en cuenta en este 33%, el margin no porque está fuera del elemento */
   width: 400px;
-  text-align: center; 
   padding-top: 10px;
 }
 
-#marco {
-  position: relative;
-	top: 0px;
-	left: 0px;
+.flip-box {
+  background-color: transparent;
+  width: 100%;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
 }
 
-#marco:hover {
-  -ms-transform: scale(1.2 , 1.2);
-  -webkit-transform: scale(1.2, 1.2);
-  -moz-transform: scale(1.2 , 1.2);
-  -o-transform: scale(1.2 , 1.2);
-  transform: scale(1.2 , 1.2);
-  z-index: 1;
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-back {
+  background-color: rgb(202, 139, 67);
+  color: black;
+  transform: rotateY(180deg);
 }
 
 img {
-	height:300px;
+	height:100%;
 	width: 100%;
   object-fit: cover;
-  z-index: 0;
 }  
 
 figcaption {
@@ -137,22 +156,21 @@ figcaption {
   left: 0px;
 }
 
-@media screen and (max-width:1140px) {
-	/* Jugamos con el tamaño de la pantalla y según la resolución máx ajustamos la altura de la img*/
+/* @media screen and (max-width:1140px) {
 	figure{
 		width: 300px;
 	}
-	img{
+	.flip-box{
 		height: 200px;
 	}
-}
+} */
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 790px) {/*760*/
 	figure{ 
-     width: 200px;     
+     width: 300px;  /*200*/   
 	}
-	img{
-	  height: 150px;
+	.flip-box{
+	  height: 200px;/*150*/ 
 	}
 }
 

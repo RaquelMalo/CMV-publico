@@ -12,13 +12,13 @@ function leerXML() {
     }
   };
   xhr.open("GET", "https://raquelmalo.github.io/CMV-publico/mmedia/datos.xml", true);
-  //xhr.open("GET", "datos.xml", true); //problema de política de control de acceso HTTP: C0RS (Cross-Origin Resource Sharing)
+  //xhr.open("GET", "datos.xml", true);
   xhr.send();
 }
 function cargarArray(xml) {
   var i;
-  var nom;
-  var foto;
+  var nom, pie
+  var foto, detalle;
   var elemento = [];
   var xmlDoc = xml.responseXML;
 
@@ -34,17 +34,25 @@ function cargarArray(xml) {
     nom = x[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue;
     foto = x[i].getElementsByTagName("foto")[0].childNodes[0].nodeValue;
     pie = x[i].getElementsByTagName("pie")[0].childNodes[0].nodeValue;
+    detalle = x[i].getElementsByTagName("detalle")[0].childNodes[0].nodeValue;
     // actualizo el bloque de visualización ( Usar ' o el carácter de escape: \" para las " si voy concatenando el string)
     bloque += `<figure>
-              <h3>${nom}</h3>
-                <div id="marco">
-                  <img alt="${nom}" src=" ${foto}" />
-                  <figcaption>${pie}</figcaption>
-                </div>
-              </figure>`;
+                  <h3>${nom}</h3>
+                  <div class="flip-box">
+                    <div class="flip-box-inner">
+                      <div id="marco" class="flip-box-front">                   
+                        <img alt="${nom}" src=" ${foto}" />
+                        <figcaption>${pie}</figcaption>
+                      </div>
+                      <div class="flip-box-back">
+                        <p>${detalle}</p>
+                      </div>
+                    </div>
+                  </div>
+                </figure>`;	
     
     // actualizo el array
-    elemento = [nom, foto, pie];
+    elemento = [nom, foto, pie, detalle];
     registrados.push(elemento);
   }
   //bloque += "</section>"
