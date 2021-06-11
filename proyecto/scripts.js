@@ -36,20 +36,20 @@ function cargarArray(xml) {
     pie = x[i].getElementsByTagName("pie")[0].childNodes[0].nodeValue;
     detalle = x[i].getElementsByTagName("detalle")[0].childNodes[0].nodeValue;
     // actualizo el bloque de visualización ( Usar ' o el carácter de escape: \" para las " si voy concatenando el string)
-    bloque += `<figure>
-                  <h3>${nom}</h3>
-                  <div class="flip-box">
-                    <div class="flip-box-inner">
-                      <div id="marco" class="flip-box-front">                   
-                        <img alt="${nom}" src=" ${foto}" />
-                        <figcaption>${pie}</figcaption>
-                      </div>
-                      <div class="flip-box-back">
-                        <p>${detalle}</p>
-                      </div>
+    bloque += `<figure class="flip-box">
+                <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                    <h3>${nom}</h3>
+                    <div id="marco" >                   
+                      <img alt="${nom}" src=" ${foto}" />
+                      <figcaption>${pie}</figcaption>
                     </div>
+                  </div>  
+                  <div class="flip-box-back">
+                    <p>${detalle}</p>
                   </div>
-                </figure>`;	
+                </div>
+              </figure>`;	
     
     // actualizo el array
     elemento = [nom, foto, pie, detalle];
