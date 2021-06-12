@@ -91,6 +91,7 @@ nav button {
 a:hover, button:hover {
   background-color:#ebd67b;
   box-shadow: 8px 4px 4px #aaa;
+  cursor: pointer;
 }
 
 #galeria{
