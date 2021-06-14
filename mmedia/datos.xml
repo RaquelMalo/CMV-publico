@@ -59,13 +59,14 @@
         <foto>https://viajerosocultos.com/wp-content/uploads/2020/12/sintraaa.jpg</foto>
         <pie>Palacio da Pena, Sintra (Portugal)</pie>
 		<detalle>Sintra es una villa portuguesa del distrito de Lisboa, declarada Patrimonio de la Humanidad por la Unesco gracias a la cantidad de palacios que alberga: el Nacional, el de Queluz, da Pena, Monserrate, Seteais. Entre sus principales atractivos turísticos figuran su centro histórico, numerosos castillos y construcciones antiguas (Castillo de los Moros, Quinta da Regaleira, Chalet de la Condesa Edla, Convento de los Capuchinos y Granja Ornamental de la Pena), sus playas, las sierras y Cabo da Roca, el punto más occidental de Europa. Además de su patrimonio cultural y sus paisajes naturales, Sintra es reconocida por sus vinos, su mármol, su confitería y su artesanía.</detalle>
-	    </elemento>
+	</elemento>
     <elemento nro="11">  
         <nombre>NUEVA YORK</nombre>
 		<foto>https://mercado.com.ar/wp/wp-content/uploads/2021/04/nueva-YOrk.jpg</foto>
 		<pie>Los míticos rascacielos de Nueva York</pie>
 		<detalle>Escenario de innumerables películas y con canción propia, la ciudad de Nueva York es mundialmente conocida por la Estatua de la libertad y sus rascacielos entre los que se encuentra el mítico Empire Estate. Conocida como la gran manzana, Nueva York tiene más de 113 km² de parques y 23 kilómetros de playas públicas. Entre sus principales áreas verdes se encuentran el famoso Central Park (en un rectángulo de 4 km x 800 m), está situado en la isla de Manhattan. Es el parque más visitado de los Estados Unidos.</detalle>
-    <elemento nro="12">  
+    </elemento>
+	<elemento nro="12">  
         <nombre>SANTO DOMINGO</nombre>
 		<foto>https://upload.wikimedia.org/wikipedia/commons/1/11/ItDozent_Santo_Domingo_Alcazar_de_Colon_2005.jpg</foto>
 		<pie>Alcázar de Colón - Santo Domingo</pie>
