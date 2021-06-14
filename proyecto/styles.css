@@ -27,31 +27,8 @@
   background-color: var(--fondoNoche);
 }
 
-.marco {
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  grid-template-rows: auto auto auto;
-  grid-gap: 0px;
-  width: 100vw;
-  height: 100vh;
-}
-
-.encabezado {
-  background-color:var(--colorFijo);
-  grid-column: 1 / span 4;
-  grid-row: 1 / span 1;
-}
-
-.contenido {
-  grid-column: 1 / span 4;
-  grid-row: 3 / span 1;		  
-  overflow: auto;  /*añade scroll a esta parte y no a toda la página, y solo cuando sea necesario */
-  }
-
-.pie {
-  background-color: var(--colorFijo);
-  grid-column: 1 / span 4;
-  grid-row: 4 / span 1;
+header, footer {
+  background-color: #336699;
 }
 
 h1 {
@@ -64,7 +41,8 @@ h1 {
 
 h2{
   text-align: center;
-  padding: 20px;
+  margin-top: 20px;
+  padding: 10px;
 }
 
 h3{

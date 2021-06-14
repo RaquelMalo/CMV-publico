@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <orla>
     <elemento nro="1">  
-        <nombre>SEVILLA</nombre>
-		<foto>https://cdn.pixabay.com/photo/2018/04/30/16/30/architecture-3363159__340.jpg</foto>
-		<pie>Plaza de España de Sevilla</pie>
-		<detalle>De Sevilla se dice que es una maravilla y la verdad es que la capital andaluza te atrapa desde el primer momento por clima, gastronomía y los bellos e históricos edificios que pueblan su casco urbano, como el Real Alcázar, la Giralda, el Archivo de Indias, etc.</detalle>
+        <nombre>DÜSSELDORF</nombre>
+		<foto>https://cdn.pixabay.com/photo/2020/03/20/12/39/dusseldorf-4950532_1280.jpg</foto>
+		<pie>Edificios modernos junto al Rin</pie>
+		<detalle>Considerada como la ciudad germana más cosmopolita, Düsseldorf posee la mayor comunidad de ciudadanos de Japón en Europa. Es de destacar también la lujosa calle comercial Königsallee, donde se encuentran algunas de las tiendas más elitistas de Europa con precios prohibitivos para la mayoría de los ciudadanos. De la parte moderna de Düsseldorf destacan los edificios del arquitecto Gehry. El histórico casco antiguo está salpicado con más de 260 bares y restaurantes y el espíritu alegre que se respira en su terrazas. Los museos, teatros, salas de conciertos y galerías complementan la parte lúdica de Düsseldorf con actos artísticos y culturales.</detalle>
 	</elemento>
     <elemento nro="2">  
-        <nombre>GRAN CANARIA</nombre>
-		<foto>https://upload.wikimedia.org/wikipedia/commons/3/3a/Turismo_de_naturaleza_en_Gran_Canaria_-_Islas_Canarias_-_Espa%C3%B1a.jpg</foto>
-		<pie>Paisaje de la isla de Gran Canaria</pie>
-		<detalle>Las islas es un imprescindible de todo turista que desee conocer España. Lugares de ensueño, tropicales, exóticos sin  salir de España, para disfrutar del clima y la naturaleza, y por supuesto de la playa.</detalle>
+        <nombre>MILÁN</nombre>
+		<foto>https://cdn.pixabay.com/photo/2017/04/19/15/32/milano-2242609_1280.jpg</foto>
+		<pie>El Duomo de Milán</pie>
+		<detalle>Milán es la mayor área metropolitana de Italia y el segundo municipio por población, capital de la región de Lombardía. Como capital económica e industrial de Italia, tiene el aspecto y las características de una metrópolis moderna: rascacielos (célebre el rascacielos Pirelli, construido en 1959), edificios de cristal y metal y grandes almacenes. En la ciudad se encuentra la Pinacoteca de Brera, uno de los mayores museos de Europa, fundada en 1809 por Napoleón Bonaparte. Destaca también la obra maestra de Leonardo da Vinci, la pintura mural La última cena, y diversos monumentos románicos (sobre todo iglesias y basílicas) que hacen de Milán la capital del románico lombardo.</detalle>
 	</elemento>
     <elemento nro="3">  
-        <nombre>MADRID</nombre>
-		<foto>https://s03.s3c.es/imag/_v0/770x420/b/6/c/490x_Madrid-Sol-Oso-Madrono.jpg</foto>
-		<pie>El Oso y el Madroño, Puerta del Sol de Madrid</pie>
-		<detalle>La capital española es una ciudad que nunca duerme, con un montón de ofertas de ocio y cultura que mueven a un montón de visitantes que solo acuden de fin de semana a Madrid para ir de compras o disfrutar de algún museo o musical, ya que tiene la oferta más amplia de la península.</detalle>
+        <nombre>PARÍS</nombre>
+		<foto>https://img.huffingtonpost.com/asset/5e1d9c4c2100003000af8d0c.jpeg</foto>
+		<pie>Vista aérea de París con su Tour Eiffel</pie>
+		<detalle>Conocida también como la «Ciudad de la Luz», es el destino turístico más popular del mundo, con más de 42 millones de visitantes extranjeros por año. Entre los monumentos de la ciudad figuran la Torre Eiffel, la catedral de Notre Dame, la avenida de los Campos Elíseos, el Arco de Triunfo, la basílica del Sacré Coeur, el Palacio de Los Inválidos, el Panteón, el arco de la Defensa, la ópera Garnier y el barrio de Montmartre, entre otros. También museos como el Louvre, el Museo de Orsay y el Museo Nacional de Historia Natural de Francia, o el Pompidou de arte moderno. París ocupa un lugar importante en el ámbito de la cultura, la gastronomía, la moda y el lujo.</detalle>
 	</elemento>
     <elemento nro="4">  
-        <nombre>BARCELONA</nombre>
-        <foto>https://static-resources.mirai.com/wp-content/uploads/sites/1745/20201023073143/Sagrada-Familia-Barcelona.jpg</foto>
-        <pie>La Sagrada Familia de Gaudi (Barcelona)</pie>
-        <detalle>Barcelona es una de esas ciudades que puedes visitar infinidad de veces y no cansarte nunca. Pasear por sus calles, perderte por su casco histórico y disfrutar del arte y la arquitectura gracia a Gaudi y a toda la Barcelona modernista que se conserva.</detalle>
+        <nombre>LONDRES</nombre>
+        <foto>https://www.publicdomainpictures.net/pictures/230000/nahled/london-cityscape.jpg</foto>
+        <pie>Paisaje urbano de Londres</pie>
+        <detalle>Situada a orillas del río Támesis, esta gran ciudad cosmopolita es un importante asentamiento humano desde que fue fundada por los romanos con el nombre de Londinium hace casi dos milenios. El núcleo antiguo de la urbe, la City de Londres, conserva básicamente su perímetro medieval de una milla cuadrada. Londres es uno de los centros neurálgicos en el ámbito de las artes, el comercio, la educación, el entretenimiento, la moda, las finanzas, los medios de comunicación, la investigación, el turismo o el transporte, y el principal centro financiero del mundo.</detalle>
     </elemento>
     <elemento nro="5">  
-        <nombre>VALENCIA</nombre>
-        <foto>https://cdn.pixabay.com/photo/2020/04/11/13/42/valencia-5030452_1280.jpg</foto>
-        <pie>Ciudad de las Artes y las Ciencias de Valencia</pie>
-        <detalle>En Valencia se auna modernidad y tradición. Puedes disfrutar de sus fiestas, su gastronomía, sus monumentos... y por su puesto de la playa. Muy recomendable el paseo en bici por el antiguo cauce del Turia. Y no puedes dejar de probar la auténtica horchata de chufa y una buena paella junto al mar.</detalle>
+        <nombre>SINTRA</nombre>
+        <foto>https://viajerosocultos.com/wp-content/uploads/2020/12/sintraaa.jpg</foto>
+        <pie>Palacio da Pena, Sintra (Portugal)</pie>
+        <detalle>Sintra es una villa portuguesa del distrito de Lisboa, declarada Patrimonio de la Humanidad por la Unesco gracias a la cantidad de palacios que alberga: el Nacional, el de Queluz, da Pena, Monserrate, Seteais. Entre sus principales atractivos turísticos figuran su centro histórico, numerosos castillos y construcciones antiguas (Castillo de los Moros, Quinta da Regaleira, Chalet de la Condesa Edla, Convento de los Capuchinos y Granja Ornamental de la Pena), sus playas, las sierras y Cabo da Roca, el punto más occidental de Europa. Además de su patrimonio cultural y sus paisajes naturales, Sintra cuenta con una buena infraestructura turística y es reconocida por sus vinos, su mármol, su confitería y su artesanía.</detalle>
 	    </elemento>
     <elemento nro="6">  
         <nombre>DÜSSELDORF</nombre>
@@ -44,7 +44,7 @@
 	</elemento>
     <elemento nro="8">  
         <nombre>PARÍS</nombre>
-		<foto>https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Paris_by_night%2C_Eiffel_Tower_2_of_3.JPG/1280px-Paris_by_night%2C_Eiffel_Tower_2_of_3.JPGg</foto>
+		<foto>https://img.huffingtonpost.com/asset/5e1d9c4c2100003000af8d0c.jpeg</foto>
 		<pie>Vista aérea de París con su Tour Eiffel</pie>
 		<detalle>Conocida también como la «Ciudad de la Luz», es el destino turístico más popular del mundo, con más de 42 millones de visitantes extranjeros por año. Entre los monumentos de la ciudad figuran la Torre Eiffel, la catedral de Notre Dame, la avenida de los Campos Elíseos, el Arco de Triunfo, la basílica del Sacré Coeur, el Palacio de Los Inválidos, el Panteón, el arco de la Defensa, la ópera Garnier y el barrio de Montmartre, entre otros. También museos como el Louvre, el Museo de Orsay y el Museo Nacional de Historia Natural de Francia, o el Pompidou de arte moderno. París ocupa un lugar importante en el ámbito de la cultura, la gastronomía, la moda y el lujo.</detalle>
 	</elemento>
@@ -58,65 +58,96 @@
         <nombre>SINTRA</nombre>
         <foto>https://viajerosocultos.com/wp-content/uploads/2020/12/sintraaa.jpg</foto>
         <pie>Palacio da Pena, Sintra (Portugal)</pie>
-		<detalle>Sintra es una villa portuguesa del distrito de Lisboa, declarada Patrimonio de la Humanidad por la Unesco gracias a la cantidad de palacios que alberga: el Nacional, el de Queluz, da Pena, Monserrate, Seteais. Entre sus principales atractivos turísticos figuran su centro histórico, numerosos castillos y construcciones antiguas (Castillo de los Moros, Quinta da Regaleira, Chalet de la Condesa Edla, Convento de los Capuchinos y Granja Ornamental de la Pena), sus playas, las sierras y Cabo da Roca, el punto más occidental de Europa. Además de su patrimonio cultural y sus paisajes naturales, Sintra es reconocida por sus vinos, su mármol, su confitería y su artesanía.</detalle>
+		<detalle>Sintra es una villa portuguesa del distrito de Lisboa, declarada Patrimonio de la Humanidad por la Unesco gracias a la cantidad de palacios que alberga: el Nacional, el de Queluz, da Pena, Monserrate, Seteais. Entre sus principales atractivos turísticos figuran su centro histórico, numerosos castillos y construcciones antiguas (Castillo de los Moros, Quinta da Regaleira, Chalet de la Condesa Edla, Convento de los Capuchinos y Granja Ornamental de la Pena), sus playas, las sierras y Cabo da Roca, el punto más occidental de Europa. Además de su patrimonio cultural y sus paisajes naturales, Sintra cuenta con una buena infraestructura turística y es reconocida por sus vinos, su mármol, su confitería y su artesanía.</detalle>
 	    </elemento>
     <elemento nro="11">  
-        <nombre>NUEVA YORK</nombre>
-		<foto>https://mercado.com.ar/wp/wp-content/uploads/2021/04/nueva-YOrk.jpg</foto>
-		<pie>Los míticos rascacielos de Nueva York</pie>
-		<detalle>Escenario de innumerables películas y con canción propia, la ciudad de Nueva York es mundialmente conocida por la Estatua de la libertad y sus rascacielos entre los que se encuentra el mítico Empire Estate. Conocida como la gran manzana, Nueva York tiene más de 113 km² de parques y 23 kilómetros de playas públicas. Entre sus principales áreas verdes se encuentran el famoso Central Park (en un rectángulo de 4 km x 800 m), está situado en la isla de Manhattan. Es el parque más visitado de los Estados Unidos.</detalle>
+        <nombre>DÜSSELDORF</nombre>
+		<foto>https://cdn.pixabay.com/photo/2020/03/20/12/39/dusseldorf-4950532_1280.jpg</foto>
+		<pie>Edificios modernos junto al Rin</pie>
+		<detalle>Considerada como la ciudad germana más cosmopolita, Düsseldorf posee la mayor comunidad de ciudadanos de Japón en Europa. Es de destacar también la lujosa calle comercial Königsallee, donde se encuentran algunas de las tiendas más elitistas de Europa con precios prohibitivos para la mayoría de los ciudadanos. De la parte moderna de Düsseldorf destacan los edificios del arquitecto Gehry. El histórico casco antiguo está salpicado con más de 260 bares y restaurantes y el espíritu alegre que se respira en su terrazas. Los museos, teatros, salas de conciertos y galerías complementan la parte lúdica de Düsseldorf con actos artísticos y culturales.</detalle>
+	</elemento>
     <elemento nro="12">  
-        <nombre>SANTO DOMINGO</nombre>
-		<foto>https://upload.wikimedia.org/wikipedia/commons/1/11/ItDozent_Santo_Domingo_Alcazar_de_Colon_2005.jpg</foto>
-		<pie>Alcázar de Colón - Santo Domingo</pie>
-		<detalle>Santo Domingo de Guzmán, generalmente llamada sólo Santo Domingo, es la primera ciudad fundada por europeos en América y fue la primera sede del gobierno de la Corona de Castilla en el Nuevo Mundo. Es la capital de la República Dominicana, fue fundada en 1498 por Bartolomé Colón y luego trasladada por Nicolás de Ovando en 1502 a la parte que hoy ocupa, la cual es llamada como Zona Colonial. Situada sobre el mar Caribe, en la desembocadura del río Ozama, es un lugar paradisiaco que no te dejará indiferente.</detalle>
+        <nombre>MILÁN</nombre>
+		<foto>https://cdn.pixabay.com/photo/2017/04/19/15/32/milano-2242609_1280.jpg</foto>
+		<pie>El Duomo de Milán</pie>
+		<detalle>Milán es la mayor área metropolitana de Italia y el segundo municipio por población, capital de la región de Lombardía. Como capital económica e industrial de Italia, tiene el aspecto y las características de una metrópolis moderna: rascacielos (célebre el rascacielos Pirelli, construido en 1959), edificios de cristal y metal y grandes almacenes. En la ciudad se encuentra la Pinacoteca de Brera, uno de los mayores museos de Europa, fundada en 1809 por Napoleón Bonaparte. Destaca también la obra maestra de Leonardo da Vinci, la pintura mural La última cena, y diversos monumentos románicos (sobre todo iglesias y basílicas) que hacen de Milán la capital del románico lombardo.</detalle>
 	</elemento>
     <elemento nro="13">  
-        <nombre>TAILANDIA</nombre>
-		<foto>https://live.staticflickr.com/65535/48886993508_113a7e3eb5_b.jpg</foto>
-		<pie>Estupas en el Wat Phra Singh, Chiang Mai, Tailandia</pie>
-		<detalle>El valle del río Mekong ya estaba habitado hace diez mil años, los primeros agricultores del mundo y tal vez los primeros que trabajaron el metal hablaban una forma primitiva de Thai y vivían en el territorio que hoy ocupa Tailandia. Desde entonces y hasta hoy la historia del país de la sonrisa ha pasado por diferentes periodos, unos más prósperos y otros en los que sufrieron importantes y sangrientas invasiones. Quizá fue el Periodo Ayutthaya el más próspero y el que marcaría, sin duda, el futuro del país.</detalle>
+        <nombre>PARÍS</nombre>
+		<foto>https://img.huffingtonpost.com/asset/5e1d9c4c2100003000af8d0c.jpeg</foto>
+		<pie>Vista aérea de París con su Tour Eiffel</pie>
+		<detalle>Conocida también como la «Ciudad de la Luz», es el destino turístico más popular del mundo, con más de 42 millones de visitantes extranjeros por año. Entre los monumentos de la ciudad figuran la Torre Eiffel, la catedral de Notre Dame, la avenida de los Campos Elíseos, el Arco de Triunfo, la basílica del Sacré Coeur, el Palacio de Los Inválidos, el Panteón, el arco de la Defensa, la ópera Garnier y el barrio de Montmartre, entre otros. También museos como el Louvre, el Museo de Orsay y el Museo Nacional de Historia Natural de Francia, o el Pompidou de arte moderno. París ocupa un lugar importante en el ámbito de la cultura, la gastronomía, la moda y el lujo.</detalle>
 	</elemento>
     <elemento nro="14">  
-        <nombre>CANADÁ</nombre>
-        <foto>https://www.viajablog.com/wp-content/uploads/2020/11/banff-canada-lago-invierno.jpg</foto>
-        <pie>Lago Banff en Canadá</pie>
-        <detalle>Es el segundo país más extenso del mundo después de Rusia, y también el más septentrional. Ocupa cerca de la mitad del territorio de Norteamérica. A causa de su clima, es uno de los 15 países con menor densidad poblacional del mundo. El territorio ocupado por Canadá fue habitado por los diversos grupos de población aborigen durante milenios. Desde finales del siglo XV, numerosas expediciones británicas y francesas exploraron a lo largo de la costa atlántica, donde más tarde se establecieron. Francia cedió casi todas sus colonias norteamericanas en 1763 después de la Guerra Franco-india.</detalle>
+        <nombre>LONDRES</nombre>
+        <foto>https://www.publicdomainpictures.net/pictures/230000/nahled/london-cityscape.jpg</foto>
+        <pie>Paisaje urbano de Londres</pie>
+        <detalle>Situada a orillas del río Támesis, esta gran ciudad cosmopolita es un importante asentamiento humano desde que fue fundada por los romanos con el nombre de Londinium hace casi dos milenios. El núcleo antiguo de la urbe, la City de Londres, conserva básicamente su perímetro medieval de una milla cuadrada. Londres es uno de los centros neurálgicos en el ámbito de las artes, el comercio, la educación, el entretenimiento, la moda, las finanzas, los medios de comunicación, la investigación, el turismo o el transporte, y el principal centro financiero del mundo.</detalle>
     </elemento>
     <elemento nro="15">  
-        <nombre>AUSTRALIA</nombre>
+        <nombre>SINTRA</nombre>
         <foto>https://viajerosocultos.com/wp-content/uploads/2020/12/sintraaa.jpg</foto>
-        <pie>Sidney (Australia)</pie>
-        <detalle>Australia es el sexto país más grande del mundo, con 7 millones de kilómetros cuadrados, y su gran extensión se corresponde con la variedad de las atracciones turísticas que se pueden disfrutar en el lugar. Las ciudades australianas más importantes se encuentran en la costa oeste. \r\nEl topónimo Australia proviene directamente del adjetivo latino australis es decir ‘sureño’. Durante la Antigüedad clásica hubo eruditos que mencionaron una Terra Australis Incognita (‘Tierra Sureña Desconocida’). Sin duda uno de sus encantos son las especies animales únicas que se dan, como los marsupiales, a la que pertenecen Canguros y koalas.</detalle>
+        <pie>Palacio da Pena, Sintra (Portugal)</pie>
+        <detalle>Sintra es una villa portuguesa del distrito de Lisboa, declarada Patrimonio de la Humanidad por la Unesco gracias a la cantidad de palacios que alberga: el Nacional, el de Queluz, da Pena, Monserrate, Seteais. Entre sus principales atractivos turísticos figuran su centro histórico, numerosos castillos y construcciones antiguas (Castillo de los Moros, Quinta da Regaleira, Chalet de la Condesa Edla, Convento de los Capuchinos y Granja Ornamental de la Pena), sus playas, las sierras y Cabo da Roca, el punto más occidental de Europa. Además de su patrimonio cultural y sus paisajes naturales, Sintra cuenta con una buena infraestructura turística y es reconocida por sus vinos, su mármol, su confitería y su artesanía.</detalle>
 		</elemento>
 	<elemento nro="16">  
-        <nombre>MONELLS</nombre>
-		<foto>https://101lugaresincreibles.com/wp-content/uploads/2018/08/monells-4-800x534.jpg</foto>
-		<pie>Monells (Girona)</pie>
-		<detalle>Monells es una entidad de población perteneciente al municipio de Cruïlles, Monells y Sant Sadurní de l\'Heura, en el Baix Empordà. El municipio está construido alrededor del antiguo castillo, del que solamente se conservan las murallas. El encanto del pueblo reside en su pasado medieval, de nobles y caballeros, de mercados, castillos, barones y baronesas y reyes.\r\nEl mercado de Monells fue de gran importancia durante la la época medieval, y conserva una bonita plaza mayor porticada y la Iglesia de San Ginés, de estilo gótico.</detalle>
+        <nombre>DÜSSELDORF</nombre>
+		<foto>https://cdn.pixabay.com/photo/2020/03/20/12/39/dusseldorf-4950532_1280.jpg</foto>
+		<pie>Edificios modernos junto al Rin</pie>
+		<detalle>Considerada como la ciudad germana más cosmopolita, Düsseldorf posee la mayor comunidad de ciudadanos de Japón en Europa. Es de destacar también la lujosa calle comercial Königsallee, donde se encuentran algunas de las tiendas más elitistas de Europa con precios prohibitivos para la mayoría de los ciudadanos. De la parte moderna de Düsseldorf destacan los edificios del arquitecto Gehry. El histórico casco antiguo está salpicado con más de 260 bares y restaurantes y el espíritu alegre que se respira en su terrazas. Los museos, teatros, salas de conciertos y galerías complementan la parte lúdica de Düsseldorf con actos artísticos y culturales.</detalle>
 	</elemento>
     <elemento nro="17">  
-        <nombre>SOS DEL REY CATÓLICO</nombre>
-		<foto>https://paisajesromanicos.files.wordpress.com/2018/04/sos-del-rey-catolico0611.jpg</foto>
-		<pie>Puerta de la Reina en Sos</pie>
-		<detalle>Considerado uno de los pueblos más bonitos de España, este municipio zaragozano recibió el apellido del Rey Católico a raíz de que naciese en él, huyendo de las revueltas en Navarra, el rey Fernando II de Aragón, que adquirió el sobrenombre de \"el católico\" junto a su esposa Isabel.\r\nEste precioso pueblo ha mantenido su arquitectura medieval, y permanece amurallado junto con sus 7 puertas y su plaza porticada donde tenía lugar el antiguo mercado de la villa. Un lugar de ensueño para perderse y creerse princesa y caballero por un día.</detalle>
+        <nombre>MILÁN</nombre>
+		<foto>https://cdn.pixabay.com/photo/2017/04/19/15/32/milano-2242609_1280.jpg</foto>
+		<pie>El Duomo de Milán</pie>
+		<detalle>Milán es la mayor área metropolitana de Italia y el segundo municipio por población, capital de la región de Lombardía. Como capital económica e industrial de Italia, tiene el aspecto y las características de una metrópolis moderna: rascacielos (célebre el rascacielos Pirelli, construido en 1959), edificios de cristal y metal y grandes almacenes. En la ciudad se encuentra la Pinacoteca de Brera, uno de los mayores museos de Europa, fundada en 1809 por Napoleón Bonaparte. Destaca también la obra maestra de Leonardo da Vinci, la pintura mural La última cena, y diversos monumentos románicos (sobre todo iglesias y basílicas) que hacen de Milán la capital del románico lombardo.</detalle>
 	</elemento>
     <elemento nro="18">  
-        <nombre>ARZÚA</nombre>
-		<foto>https://fotos.hoteles.net/articulos/arzua-pueblo-corunes-galicia-2030-1.jpg</foto>
-		<pie>Arzúa, el concejo coruñés del queso</pie>
+        <nombre>PARÍS</nombre>
+		<foto>https://img.huffingtonpost.com/asset/5e1d9c4c2100003000af8d0c.jpeg</foto>
+		<pie>Vista aérea de París con su Tour Eiffel</pie>
 		<detalle>Conocida también como la «Ciudad de la Luz», es el destino turístico más popular del mundo, con más de 42 millones de visitantes extranjeros por año. Entre los monumentos de la ciudad figuran la Torre Eiffel, la catedral de Notre Dame, la avenida de los Campos Elíseos, el Arco de Triunfo, la basílica del Sacré Coeur, el Palacio de Los Inválidos, el Panteón, el arco de la Defensa, la ópera Garnier y el barrio de Montmartre, entre otros. También museos como el Louvre, el Museo de Orsay y el Museo Nacional de Historia Natural de Francia, o el Pompidou de arte moderno. París ocupa un lugar importante en el ámbito de la cultura, la gastronomía, la moda y el lujo.</detalle>
 	</elemento>
     <elemento nro="19">  
-        <nombre>MURAT</nombre>
-        <foto>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Murat_maison_de_la_faune.jpg/1200px-Murat_maison_de_la_faune.jpg</foto>
-        <pie>Maison de la faune de Murat (Cantal)</pie>
-        <detalle>Murat es un pequeño pueblo precioso en la región de Cantal. Y un ejemplo de la Francia menos conocida. Aunque en esa zona hay varios pueblos catalogados entre los más bellos de Francia, como por ejemplo Tournemire y Salers, hay también otros hermosos menos conocidos como Murat. \r\nLa región de Cantal es parte de la región más amplia de Auvernia-Ródano-Alpes. Este pueblecito tiene apenas 2.100 habitantes sumando las dos comunas que lo integran: Chastel-sur-Murat y Murat.</detalle>
+        <nombre>LONDRES</nombre>
+        <foto>https://www.publicdomainpictures.net/pictures/230000/nahled/london-cityscape.jpg</foto>
+        <pie>Paisaje urbano de Londres</pie>
+        <detalle>Situada a orillas del río Támesis, esta gran ciudad cosmopolita es un importante asentamiento humano desde que fue fundada por los romanos con el nombre de Londinium hace casi dos milenios. El núcleo antiguo de la urbe, la City de Londres, conserva básicamente su perímetro medieval de una milla cuadrada. Londres es uno de los centros neurálgicos en el ámbito de las artes, el comercio, la educación, el entretenimiento, la moda, las finanzas, los medios de comunicación, la investigación, el turismo o el transporte, y el principal centro financiero del mundo.</detalle>
     </elemento>
     <elemento nro="20">  
-        <nombre>TRIBERG</nombre>
-        <foto>https://s-media-cache-ak0.pinimg.com/736x/47/f7/28/47f7289e7dc425711fc11b145205168b.jpg</foto>
-        <pie>El reloj de cuco más grande del mundo</pie>
-        <detalle>Triberg es la ciudad de los relojes cucú en Selva Negra Alemania, uno de los lugares más bonitos y pintorescos.\r\nTriberg es un precioso punto para detenerse por varias razones. Para empezar, es la ciudad de los relojes cucú porque allí se hacen estos relojes de modo artesanal y tradicional. Por lo tanto si buscas un reloj cucú original artesanal, Triberg es un destino ideal para comprarlos. Aunque no serán precisamente baratos ya que este arte cotiza “en bolsa”. Los más básicos y pequeños llegan a valer hasta 3.000 euros o más. Algo entendible ya que es pura artesanía, y estos relojes se compran para toda la vida, incluso por colección.</detalle>
-	</elemento>	
+        <nombre>SINTRA</nombre>
+        <foto>https://viajerosocultos.com/wp-content/uploads/2020/12/sintraaa.jpg</foto>
+        <pie>Palacio da Pena, Sintra (Portugal)</pie>
+        <detalle>Sintra es una villa portuguesa del distrito de Lisboa, declarada Patrimonio de la Humanidad por la Unesco gracias a la cantidad de palacios que alberga: el Nacional, el de Queluz, da Pena, Monserrate, Seteais. Entre sus principales atractivos turísticos figuran su centro histórico, numerosos castillos y construcciones antiguas (Castillo de los Moros, Quinta da Regaleira, Chalet de la Condesa Edla, Convento de los Capuchinos y Granja Ornamental de la Pena), sus playas, las sierras y Cabo da Roca, el punto más occidental de Europa. Además de su patrimonio cultural y sus paisajes naturales, Sintra cuenta con una buena infraestructura turística y es reconocida por sus vinos, su mármol, su confitería y su artesanía.</detalle>
+	</elemento>
+	<elemento nro="21">  
+        <nombre>DÜSSELDORF</nombre>
+		<foto>https://cdn.pixabay.com/photo/2020/03/20/12/39/dusseldorf-4950532_1280.jpg</foto>
+		<pie>Edificios modernos junto al Rin</pie>
+		<detalle>Considerada como la ciudad germana más cosmopolita, Düsseldorf posee la mayor comunidad de ciudadanos de Japón en Europa. Es de destacar también la lujosa calle comercial Königsallee, donde se encuentran algunas de las tiendas más elitistas de Europa con precios prohibitivos para la mayoría de los ciudadanos. De la parte moderna de Düsseldorf destacan los edificios del arquitecto Gehry. El histórico casco antiguo está salpicado con más de 260 bares y restaurantes y el espíritu alegre que se respira en su terrazas. Los museos, teatros, salas de conciertos y galerías complementan la parte lúdica de Düsseldorf con actos artísticos y culturales.</detalle>
+	</elemento>
+    <elemento nro="22">  
+        <nombre>MILÁN</nombre>
+		<foto>https://cdn.pixabay.com/photo/2017/04/19/15/32/milano-2242609_1280.jpg</foto>
+		<pie>El Duomo de Milán</pie>
+		<detalle>Milán es la mayor área metropolitana de Italia y el segundo municipio por población, capital de la región de Lombardía. Como capital económica e industrial de Italia, tiene el aspecto y las características de una metrópolis moderna: rascacielos (célebre el rascacielos Pirelli, construido en 1959), edificios de cristal y metal y grandes almacenes. En la ciudad se encuentra la Pinacoteca de Brera, uno de los mayores museos de Europa, fundada en 1809 por Napoleón Bonaparte. Destaca también la obra maestra de Leonardo da Vinci, la pintura mural La última cena, y diversos monumentos románicos (sobre todo iglesias y basílicas) que hacen de Milán la capital del románico lombardo.</detalle>
+	</elemento>
+    <elemento nro="23">  
+        <nombre>PARÍS</nombre>
+		<foto>https://img.huffingtonpost.com/asset/5e1d9c4c2100003000af8d0c.jpeg</foto>
+		<pie>Vista aérea de París con su Tour Eiffel</pie>
+		<detalle>Conocida también como la «Ciudad de la Luz», es el destino turístico más popular del mundo, con más de 42 millones de visitantes extranjeros por año. Entre los monumentos de la ciudad figuran la Torre Eiffel, la catedral de Notre Dame, la avenida de los Campos Elíseos, el Arco de Triunfo, la basílica del Sacré Coeur, el Palacio de Los Inválidos, el Panteón, el arco de la Defensa, la ópera Garnier y el barrio de Montmartre, entre otros. También museos como el Louvre, el Museo de Orsay y el Museo Nacional de Historia Natural de Francia, o el Pompidou de arte moderno. París ocupa un lugar importante en el ámbito de la cultura, la gastronomía, la moda y el lujo.</detalle>
+	</elemento>
+    <elemento nro="24">  
+        <nombre>LONDRES</nombre>
+        <foto>https://www.publicdomainpictures.net/pictures/230000/nahled/london-cityscape.jpg</foto>
+        <pie>Paisaje urbano de Londres</pie>
+        <detalle>Situada a orillas del río Támesis, esta gran ciudad cosmopolita es un importante asentamiento humano desde que fue fundada por los romanos con el nombre de Londinium hace casi dos milenios. El núcleo antiguo de la urbe, la City de Londres, conserva básicamente su perímetro medieval de una milla cuadrada. Londres es uno de los centros neurálgicos en el ámbito de las artes, el comercio, la educación, el entretenimiento, la moda, las finanzas, los medios de comunicación, la investigación, el turismo o el transporte, y el principal centro financiero del mundo.</detalle>
+    </elemento>
+    <elemento nro="25">  
+        <nombre>SINTRA</nombre>
+        <foto>https://viajerosocultos.com/wp-content/uploads/2020/12/sintraaa.jpg</foto>
+        <pie>Palacio da Pena, Sintra (Portugal)</pie>
+		<detalle>Sintra es una villa portuguesa del distrito de Lisboa, declarada Patrimonio de la Humanidad por la Unesco gracias a la cantidad de palacios que alberga: el Nacional, el de Queluz, da Pena, Monserrate, Seteais. Entre sus principales atractivos turísticos figuran su centro histórico, numerosos castillos y construcciones antiguas (Castillo de los Moros, Quinta da Regaleira, Chalet de la Condesa Edla, Convento de los Capuchinos y Granja Ornamental de la Pena), sus playas, las sierras y Cabo da Roca, el punto más occidental de Europa. Además de su patrimonio cultural y sus paisajes naturales, Sintra cuenta con una buena infraestructura turística y es reconocida por sus vinos, su mármol, su confitería y su artesanía.</detalle>
+	</elemento>
 </orla>
