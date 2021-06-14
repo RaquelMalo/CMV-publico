@@ -5,11 +5,11 @@
 }
 
 :root {
-  --fuenteDia : #ff0000;
-  --fuenteNoche: #0000ff;
+  --fuenteDia : #c93131;
+  --fuenteNoche: indigo;
   --colorFijo: #336699;
   --fondoDia:  #f7f8e8;
-  --fondoNoche:#999999;
+  --fondoNoche:#a79f94;
 }
 
 .dia {
@@ -193,4 +193,5 @@ footer > div { /* centrar solo verticalmente */
   display: flex;
   align-content: center;
   justify-content: flex-start;
+  color:white;
 }

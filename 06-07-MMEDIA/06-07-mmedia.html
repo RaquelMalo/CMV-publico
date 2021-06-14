@@ -85,14 +85,14 @@ fecha: Mayo 2021
 	<!-- pie de pagina -->
 	<footer>
 		<br/><br/><br/>
-		<div><a href="https://raquelmalo.github.io/CMV-publico">&copy; 2020 By Raquel Malo</a></div>
+		<div>&copy; 2020 By <a href="https://raquelmalo.github.io/CMV-publico">Raquel Malo</a></div>
 	</footer>
 
 	<script>
 		// seccion de codigo javascript 
-		<!-- document.getElementById('audio-player').textTracks[0].addEventListener('cuechange', function() { -->
-			<!-- document.getElementById('subtitle-display').innerText = this.activeCues[0].text; -->
-		<!-- }); -->
+		// document.getElementById('audio-player').textTracks[0].addEventListener('cuechange', function() {
+		// 	document.getElementById('subtitle-display').innerText = this.activeCues[0].text;
+		// });
 		$('audio')[0].textTracks[0].oncuechange = function() { 
 			var currentCue = this.activeCues[0].text;
 			$('#subtitle-display').html(currentCue);
