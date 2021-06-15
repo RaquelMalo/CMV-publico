@@ -4,7 +4,7 @@
         <nombre>SEVILLA</nombre>
 		<foto>https://cdn.pixabay.com/photo/2018/04/30/16/30/architecture-3363159__340.jpg</foto>
 		<pie>Plaza de España de Sevilla</pie>
-		<detalle>De Sevilla se dice que es una maravilla y la verdad es que la capital andaluza te atrapa desde el primer momento por clima, gastronomía y los bellos e históricos edificios que pueblan su casco urbano, como el Real Alcázar, la Giralda, el Archivo de Indias, etc.</detalle>
+		<detalle>De Sevilla se dice que es una maravilla y la verdad es que la capital andaluza te atrapa desde el primer momento por el clima, la gastronomía y los bellos e históricos edificios que pueblan su casco urbano, como el Real Alcázar, la Giralda, el Archivo de Indias, etc.</detalle>
 	</elemento>
     <elemento nro="2">  
         <nombre>GRAN CANARIA</nombre>
@@ -16,13 +16,13 @@
         <nombre>MADRID</nombre>
 		<foto>https://s03.s3c.es/imag/_v0/770x420/b/6/c/490x_Madrid-Sol-Oso-Madrono.jpg</foto>
 		<pie>El Oso y el Madroño, Puerta del Sol de Madrid</pie>
-		<detalle>La capital española es una ciudad que nunca duerme, con un montón de ofertas de ocio y cultura que mueven a un montón de visitantes que solo acuden de fin de semana a Madrid para ir de compras o disfrutar de algún museo o musical, ya que tiene la oferta más amplia de la península.</detalle>
+		<detalle>La capital española es una ciudad que nunca duerme, con gran número de ofertas de ocio y cultura que mueven a un montón de visitantes que solo acuden de fin de semana a Madrid para ir de compras o disfrutar de algún museo o musical, ya que tiene la oferta más amplia de la península.</detalle>
 	</elemento>
     <elemento nro="4">  
         <nombre>BARCELONA</nombre>
         <foto>https://static-resources.mirai.com/wp-content/uploads/sites/1745/20201023073143/Sagrada-Familia-Barcelona.jpg</foto>
         <pie>La Sagrada Familia de Gaudi (Barcelona)</pie>
-        <detalle>Barcelona es una de esas ciudades que puedes visitar infinidad de veces y no cansarte nunca. Pasear por sus calles, perderte por su casco histórico y disfrutar del arte y la arquitectura gracia a Gaudi y a toda la Barcelona modernista que se conserva.</detalle>
+        <detalle>Barcelona es una de esas ciudades que puedes visitar infinidad de veces y no cansarte nunca. Pasear por sus calles, perderte por su casco histórico y disfrutar del arte y la arquitectura gracias a Gaudi y a toda la Barcelona modernista que se conserva.</detalle>
     </elemento>
     <elemento nro="5">  
         <nombre>VALENCIA</nombre>
@@ -45,7 +45,7 @@
     <elemento nro="8">  
         <nombre>PARÍS</nombre>
 		<foto>https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Paris_by_night%2C_Eiffel_Tower_2_of_3.JPG/1280px-Paris_by_night%2C_Eiffel_Tower_2_of_3.JPG</foto>
-		<pie>Vista aérea de París con su Tour Eiffel</pie>
+		<pie>Vista nocturna de París con su Tour Eiffel</pie>
 		<detalle>Conocida también como la «Ciudad de la Luz», es el destino turístico más popular del mundo, con más de 42 millones de visitantes extranjeros por año. Entre los monumentos de la ciudad figuran la Torre Eiffel, la catedral de Notre Dame, la avenida de los Campos Elíseos, el Arco de Triunfo, la basílica del Sacré Coeur, el Palacio de Los Inválidos, el Panteón, el arco de la Defensa, la ópera Garnier y el barrio de Montmartre, entre otros. También museos como el Louvre, el Museo de Orsay y el Museo Nacional de Historia Natural de Francia, o el Pompidou de arte moderno. París ocupa un lugar importante en el ámbito de la cultura, la gastronomía, la moda y el lujo.</detalle>
 	</elemento>
     <elemento nro="9">  
@@ -94,30 +94,30 @@
         <nombre>MONELLS</nombre>
 		<foto>https://101lugaresincreibles.com/wp-content/uploads/2018/08/monells-4-800x534.jpg</foto>
 		<pie>Monells (Girona)</pie>
-		<detalle>Monells es una entidad de población perteneciente al municipio de Cruïlles, Monells y Sant Sadurní de l\'Heura, en el Baix Empordà. El municipio está construido alrededor del antiguo castillo, del que solamente se conservan las murallas. El encanto del pueblo reside en su pasado medieval, de nobles y caballeros, de mercados, castillos, barones y baronesas y reyes.\r\nEl mercado de Monells fue de gran importancia durante la la época medieval, y conserva una bonita plaza mayor porticada y la Iglesia de San Ginés, de estilo gótico.</detalle>
+		<detalle>Monells es una entidad de población perteneciente al municipio de Cruïlles, Monells y Sant Sadurní de l'Heura, en el Baix Empordà. El municipio está construido alrededor del antiguo castillo, del que solamente se conservan las murallas. El encanto del pueblo reside en su pasado medieval, de nobles y caballeros, de mercados, castillos, barones y baronesas y reyes. El mercado de Monells fue de gran importancia durante la época medieval, y conserva una bonita plaza mayor porticada y la Iglesia de San Ginés, de estilo gótico.</detalle>
 	</elemento>
     <elemento nro="17">  
         <nombre>SOS DEL REY CATÓLICO</nombre>
 		<foto>https://paisajesromanicos.files.wordpress.com/2018/04/sos-del-rey-catolico0611.jpg</foto>
 		<pie>Puerta de la Reina en Sos</pie>
-		<detalle>Considerado uno de los pueblos más bonitos de España, este municipio zaragozano recibió el apellido del Rey Católico a raíz de que naciese en él, huyendo de las revueltas en Navarra, el rey Fernando II de Aragón, que adquirió el sobrenombre de \"el católico\" junto a su esposa Isabel.\r\nEste precioso pueblo ha mantenido su arquitectura medieval, y permanece amurallado junto con sus 7 puertas y su plaza porticada donde tenía lugar el antiguo mercado de la villa. Un lugar de ensueño para perderse y creerse princesa y caballero por un día.</detalle>
+		<detalle>Considerado uno de los pueblos más bonitos de España, este municipio zaragozano recibió el apellido del Rey Católico a raíz de que naciese en él, huyendo de las revueltas en Navarra, el rey Fernando II de Aragón, que adquirió el sobrenombre de "el católico" junto a su esposa Isabel. Este precioso pueblo ha mantenido su arquitectura medieval, y permanece amurallado junto con sus 7 puertas y su plaza porticada donde tenía lugar el antiguo mercado de la villa. Un lugar de ensueño para perderse y creerse princesa y caballero por un día.</detalle>
 	</elemento>
     <elemento nro="18">  
         <nombre>ARZÚA</nombre>
 		<foto>https://fotos.hoteles.net/articulos/arzua-pueblo-corunes-galicia-2030-1.jpg</foto>
 		<pie>Arzúa, el concejo coruñés del queso</pie>
-		<detalle>Conocida también como la «Ciudad de la Luz», es el destino turístico más popular del mundo, con más de 42 millones de visitantes extranjeros por año. Entre los monumentos de la ciudad figuran la Torre Eiffel, la catedral de Notre Dame, la avenida de los Campos Elíseos, el Arco de Triunfo, la basílica del Sacré Coeur, el Palacio de Los Inválidos, el Panteón, el arco de la Defensa, la ópera Garnier y el barrio de Montmartre, entre otros. También museos como el Louvre, el Museo de Orsay y el Museo Nacional de Historia Natural de Francia, o el Pompidou de arte moderno. París ocupa un lugar importante en el ámbito de la cultura, la gastronomía, la moda y el lujo.</detalle>
+		<detalle>Arzúa es un municipio español situado en la parte suroriental de la provincia de La Coruña, en la comunidad autónoma de Galicia. Se autodenomina "tierra del queso" en referencia al queso elaborado con leche de vaca de la denominación de origen Arzúa-Ulloa. Entre su patrimonio artístico se encuentra la capilla de la Magdalena, que formó parte de un antiguo convento de agustinos para atender a los caminantes, ya que se encuentra en el punto de confluencia del Camino Francés y el Camino del Norte, fin de la penúltima etapa de los peregrinos en su ruta hacia Santiago. También cuenta con numerosos pazos, la fuente de los becerros, el monumento al peregrino, etc.</detalle>
 	</elemento>
     <elemento nro="19">  
         <nombre>MURAT</nombre>
         <foto>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Murat_maison_de_la_faune.jpg/1200px-Murat_maison_de_la_faune.jpg</foto>
         <pie>Maison de la faune de Murat (Cantal)</pie>
-        <detalle>Murat es un pequeño pueblo precioso en la región de Cantal. Y un ejemplo de la Francia menos conocida. Aunque en esa zona hay varios pueblos catalogados entre los más bellos de Francia, como por ejemplo Tournemire y Salers, hay también otros hermosos menos conocidos como Murat. \r\nLa región de Cantal es parte de la región más amplia de Auvernia-Ródano-Alpes. Este pueblecito tiene apenas 2.100 habitantes sumando las dos comunas que lo integran: Chastel-sur-Murat y Murat.</detalle>
+        <detalle>Murat es un pequeño pueblo precioso en la región de Cantal. Y un ejemplo de la Francia menos conocida. Aunque en esa zona hay varios pueblos catalogados entre los más bellos de Francia, como por ejemplo Tournemire y Salers, hay también otros hermosos menos conocidos como Murat. La región de Cantal es parte de la región más amplia de Auvernia-Ródano-Alpes. Este pueblecito tiene apenas 2.100 habitantes sumando las dos comunas que lo integran: Chastel-sur-Murat y Murat.</detalle>
     </elemento>
     <elemento nro="20">  
         <nombre>TRIBERG</nombre>
         <foto>https://s-media-cache-ak0.pinimg.com/736x/47/f7/28/47f7289e7dc425711fc11b145205168b.jpg</foto>
         <pie>El reloj de cuco más grande del mundo</pie>
-        <detalle>Triberg es la ciudad de los relojes cucú en Selva Negra Alemania, uno de los lugares más bonitos y pintorescos.\r\nTriberg es un precioso punto para detenerse por varias razones. Para empezar, es la ciudad de los relojes cucú porque allí se hacen estos relojes de modo artesanal y tradicional. Por lo tanto si buscas un reloj cucú original artesanal, Triberg es un destino ideal para comprarlos. Aunque no serán precisamente baratos ya que este arte cotiza “en bolsa”. Los más básicos y pequeños llegan a valer hasta 3.000 euros o más. Algo entendible ya que es pura artesanía, y estos relojes se compran para toda la vida, incluso por colección.</detalle>
+        <detalle>Triberg es la ciudad de los relojes cucú en Selva Negra Alemania, uno de los lugares más bonitos y pintorescos. Triberg es un precioso punto para detenerse por varias razones. Para empezar, es la ciudad de los relojes cucú porque allí se hacen estos relojes de modo artesanal y tradicional. Por lo tanto si buscas un reloj cucú original artesanal, Triberg es un destino ideal para comprarlos. Aunque no serán precisamente baratos ya que este arte cotiza “en bolsa”. Los más básicos y pequeños llegan a valer hasta 3.000 euros o más. Algo entendible ya que es pura artesanía, y estos relojes se compran para toda la vida, incluso por colección.</detalle>
 	</elemento>	
 </orla>

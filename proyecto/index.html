@@ -50,7 +50,7 @@ fecha: Mayo 2021
 				<li><a href="https://raquelmalo.github.io/CMV-publico">Portfolio</a></li>
 				<li><a href="#">Más info</a></li> <!-- enlace externo con el vídeo presentación a Google Drive-->
 			</ul>
-			<button>Modo Noche</button>
+			<button></button>
 		</nav>
 	</header>
 
@@ -71,10 +71,11 @@ fecha: Mayo 2021
 		$("button").click(function () {
 			$("a, button").toggleClass("noche");
 			$("main").toggleClass("nocheBg");
+			
 			if ($("button").hasClass("noche")) {
-				$("button").html('Modo Día');
+				$("button").css('background-image','url(../mmedia/sol.jpg)');
 			} else {
-				$("button").html('Modo Noche')
+				$("button").css('background-image','url(../mmedia/luna.jpg)');
 			}
 		});
 	</script>
