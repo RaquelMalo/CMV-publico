@@ -1,0 +1,198 @@
+* {	/* estilos por defecto para TODOS los elementos de la página; */
+	box-sizing: border-box;
+	padding: 0;	
+	margin: 0;
+}
+
+:root {
+  --fuenteDia : #c93131;
+  --fuenteNoche: indigo;
+  --colorFijo: #336699;
+  --fondoDia:  #f7f8e8;
+  --fondoNoche:#a79f94;
+}
+
+.dia {
+  color: var(--fuenteDia);
+  background-color: var(--fondoDia);
+}
+.noche {
+  color: var(--fuenteNoche);
+  background-color: var(--fondoNoche);
+}
+.diaBg {
+   background-color: var(--fondoDia);
+}
+.nocheBg {
+  background-color: var(--fondoNoche);
+}
+
+header, footer {
+  background-color: var(--colorFijo);
+}
+
+h1 {
+	text-align: center;
+	color:coral;
+	font-family:fantasy;
+	text-shadow: 2px 2px 4px #000000;
+	padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+h2{
+  text-align: center;
+  padding: 20px;
+}
+
+h3{
+  padding: 10px;
+}
+
+nav {
+	padding: 10px;
+	display: flex;
+}
+nav ul {
+  margin: 5px 0px 5px 0px;
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  width: 150px;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 5px;
+  display: inline-block;
+  padding: 5px 10px 5px 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+  color: var(--fuenteDia);
+  background-color: var(--fondoDia);
+}
+nav button {
+  margin: 5px 10px 5px 5px;
+  padding: 3px 10px 3px 10px;
+  font-family: 'Times New Roman', Times, serif;
+  border: 1px solid coral;
+  position: absolute;
+  right: 0px;
+  top:50px;
+  width: 60px;
+  height: 60px;
+  background-image:url(../mmedia/luna.jpg);
+  background-position:center;
+}
+
+a:hover, button:hover {
+  background-color:#ebd67b;
+  box-shadow: 8px 4px 4px #aaa;
+  cursor: pointer;
+}
+
+#galeria{
+	padding: 10px;  
+  text-align: center; 
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+figure {
+  width: 400px;
+  height: 400px;
+  /* padding-top: 10px; */
+}
+
+.flip-box {
+  background-color: transparent;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-back {
+  background-color: rgb(231, 172, 105);
+  color: black;
+  transform: rotateY(180deg);
+  border-radius: 15px;  
+}
+
+#marco {
+  position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+img {
+	height:300px;
+	width: 100%;
+  object-fit: cover;
+}  
+
+figcaption {
+  width: 100%; /* Ponerlo para forzar que coja todo el ancho y no meta marco */
+  background-color: rgba(255, 255, 255, 0.4);			
+  position: absolute;
+  bottom: 4px; 
+  left: 0px;
+}
+
+@media screen and (max-width: 820px) { /*400 de la imagen más 20 de padding*/
+	figure{ 
+     width: 325px; 
+     height: 425px; 
+	}
+	img{
+    height: 225px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+	nav button {
+		position: relative;
+    top:0px;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	#menuhorizontal a{
+    font-size: 18px;
+    max-width: 130px;
+  }
+}
+
+p {
+  text-align: justify;
+  padding: 10px;
+}
+
+footer > div { /* centrar solo verticalmente */
+  padding: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  color:white;
+}
