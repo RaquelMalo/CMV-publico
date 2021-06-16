@@ -5,7 +5,7 @@
 }
 
 :root {
-  --fuenteDia : #c93131;
+  --fuenteDia: #c93131;
   --fuenteNoche: indigo;
   --colorFijo: #336699;
   --fondoDia:  #f7f8e8;
@@ -42,7 +42,7 @@ h1 {
 
 h2{
   text-align: center;
-  padding: 20px;
+  padding: 20px, 0px, 10px, 0px;
 }
 
 h3{
@@ -70,12 +70,10 @@ nav ul li a {
   font-size: 20px;
   border-radius: 20px;
   border: 1px solid black;
-  color: var(--fuenteDia);
-  background-color: var(--fondoDia);
+  
 }
 nav button {
   margin: 5px 10px 5px 5px;
-  padding: 3px 10px 3px 10px;
   font-family: 'Times New Roman', Times, serif;
   border: 1px solid coral;
   position: absolute;
@@ -83,11 +81,11 @@ nav button {
   top:50px;
   width: 60px;
   height: 60px;
-  background-image:url(../mmedia/sol.jpg);
+  background-image:url(./assets/luna.jpg);
   background-position:center;
 }
 
-a:hover, button:hover {
+a:hover, #diaNoche:hover {
   background-color:#ebd67b;
   box-shadow: 8px 4px 4px #aaa;
   cursor: pointer;
@@ -173,7 +171,7 @@ figcaption {
 @media screen and (max-width: 400px) {
 	nav button {
 		position: relative;
-    top:0px;
+    top: 0px;
 	}
 }
 
