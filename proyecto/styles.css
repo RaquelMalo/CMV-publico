@@ -73,11 +73,11 @@ nav ul li a {
   color: var(--fuenteDia);
   background-color: var(--fondoDia);
 }
-nav button {
+nav img {
   margin: 5px 10px 5px 5px;
-  padding: 3px 10px 3px 10px;
-  font-family: 'Times New Roman', Times, serif;
-  border: 1px solid coral;
+  font-family: 'Times New Roman', Times, serif;  
+  border-radius: 20px;
+  /* border: 1px solid coral; */
   position: absolute;
   right: 0px;
   top:50px;
@@ -87,7 +87,7 @@ nav button {
   background-position:center;
 }
 
-a:hover, button:hover {
+a:hover, #diaNoche:hover {
   background-color:#ebd67b;
   box-shadow: 8px 4px 4px #aaa;
   cursor: pointer;
@@ -171,9 +171,9 @@ figcaption {
 }
 
 @media screen and (max-width: 400px) {
-	nav button {
+	nav img {
 		position: relative;
-    top:0px;
+		top:0px;
 	}
 }
 
