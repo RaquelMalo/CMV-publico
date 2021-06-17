@@ -1,0 +1,14 @@
+<header>
+  <h1>{{title}}</h1>
+  <!-- barra de navegación-->
+  <nav>
+    <ul id="menuhorizontal">
+      <!-- <li><a href="/inicio">Proyecto</a></li> -->
+      <li><a class="{{diabool?'dia':'noche'}}" href="https://raquelmalo.github.io/CMV-publico">Ejercicios</a></li>
+      <li><a class="{{diabool?'dia':'noche'}}" href="https://github.com/RaquelMalo/CMV-publico/tree/main/proyecto/Angular">Más info</a></li>
+    </ul>
+    <img id="diaNoche" alt="Dia/Noche" src="{{diabool?'./assets/luna.jpg':'./assets/sol.jpg'}}" (click)="diabool=!diabool" /><!--[ngStyle]="defineEstilo()"-->
+  </nav>
+  <!-- PONGO ESTO para poder utilizar las Rutas -->
+  <router-outlet></router-outlet>
+</header>

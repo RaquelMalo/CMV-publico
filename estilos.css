@@ -6,6 +6,7 @@
 	margin: 0;
 }
 
+
 h1 {
 	text-align: center;
 	color:coral;
@@ -16,7 +17,7 @@ h1 {
 
 h2{
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 10px;
 }
 
@@ -28,10 +29,14 @@ nav {
 	padding: 10px;
 }
 
+.indice {
+	margin-left:20px;	
+}
+
 #galeria { 
   margin: 10px;
   text-align: center;
-} 
+}
 
 p {
   text-align: justify;
